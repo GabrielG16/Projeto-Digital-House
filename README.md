@@ -1,0 +1,1 @@
+Recommendation System Project based on the KASANDR database from Kelkoo
