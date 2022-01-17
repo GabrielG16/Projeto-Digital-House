@@ -1,4 +1,3 @@
-import numpy as np 
 import pickle
 import pandas as pd
 import streamlit as st
@@ -9,16 +8,29 @@ from collections import defaultdict
 #Loading model
 model = pickle.load(open(os.getcwd()+"/.pkl/svdpp.pkl", 'rb'))
 offer_title = pickle.load(open(os.getcwd()+'/.pkl/offers.pkl', 'rb'))
-df = pd.read_csv(os.getcwd()+'/sparse_melt.csv', )
+df = pd.read_csv(os.getcwd()+'/sparse_melt.csv')
 
 #Function for prediction
 
 def recommendations_from_SVDpp(user_id, pivo_log, algo, n_recommendations):
 
-	user_id = int(user_id)
-	n_recommendations = int(n_recommendations)
+	#Casting inputs for integers
+	try:
+		user_id = int(user_id)
+	except:
+		return "Invalid User Input"
+
+	try:
+		n_recommendations = int(n_recommendations)
+	except:
+		return "Invalid Recommendations Number"
+
+	#Determining Categories clicked by selected user
+	pivo_log = corte_pivo_log(user_id, pivo_log)
+
 	# determine list of unseen itemns by user_id
 	list_of_unclicked_items = pivo_log[(pivo_log['User'] == user_id) & (pivo_log['Clicked?'] == 0)]['Products']
+	list_of_clicked_items = pivo_log[(pivo_log['User'] == user_id) & (pivo_log['Clicked?'] == 1)]['Products']
 
 	# set up user set with unrated movies
 	user_set = [[user_id, item_id, 0] for item_id in list_of_unclicked_items]
@@ -40,6 +52,10 @@ def recommendations_from_SVDpp(user_id, pivo_log, algo, n_recommendations):
 
 	print("Recommendations for user with id {}: ".format(user_id))
 
+	#msg1 = "Because you clicked:\n"
+	#for i in list_of_clicked_items:
+	#	msg1+=i
+
 	message = ''
 
 	for item_index, score in top_n_recommendations[user_id]:
@@ -47,8 +63,8 @@ def recommendations_from_SVDpp(user_id, pivo_log, algo, n_recommendations):
 
 		message += (str(count) + '. ' + str(offer_title[item_index]) + ' predicted rating = ' + str(round(score, 3)))
 		message += '\n'
-
-	return message
+	#message = msg1+message
+	return categorias_usuario
 
 
 def main():
