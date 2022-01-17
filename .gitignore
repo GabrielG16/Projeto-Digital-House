@@ -18,3 +18,7 @@ correct/
 datasets/
 df_clicks.txt
 df_offers.txt
+*.png
+*.docx
+*.pptx
+*.rar
