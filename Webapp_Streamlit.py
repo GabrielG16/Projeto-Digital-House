@@ -53,7 +53,7 @@ def recommendations_from_SVDpp(user_id, pivo_log, algo, n_recommendations):
 	#print("Recommendations for user with id {}: ".format(user_id))
 
 	msg = "Because you clicked items like:\n\n"
-	for item in list_of_clicked_items.ra[:5]:
+	for item in list_of_clicked_items.sample(5):
 		msg = msg+offer_title[item]+'\n\n'
 
 	msg+=' We recommend:\n\n'
@@ -82,7 +82,13 @@ def main():
 
 	#Recommendation Button
 	if st.button('Recommend'):
-	 	results = recommendations_from_SVDpp(user_id, df, model, n_recs)
+		with st.spinner('Wait for it...'):
+			try:
+				results = recommendations_from_SVDpp(user_id, df, model, n_recs)
+			except ValueError:
+				results = "Usuário inexistente"
+
+
 
 	st.success(results)
 
