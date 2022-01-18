@@ -4,27 +4,31 @@ import streamlit as st
 import surprise
 import os
 from sk import corte_pivo_log
+from graphs import user_graph
 from collections import defaultdict
+import matplotlib.pyplot as plt
+
 
 #Loading model and dataframes, seria legal colocar os caminhos online, pra sempre fazer a requisicao online
 
+origin_path = os.getcwd() + '\DH\Projeto\KASSANDR\GIT\Projeto-Digital-House'
+path_model = '\.pkl\svdpp.pkl'
+model = pickle.load(open((origin_path+path_model), 'rb'))
 
-path_model = r'C:\Users\Elias-Acer\DH\Projeto\KASSANDR\GIT\Projeto-Digital-House\.pkl\svdpp.pkl'
-model = pickle.load(open(path_model, 'rb'))
+path_offer = '\.pkl\offers.pkl'
+offer_title = pickle.load(open(origin_path+path_offer, 'rb'))
 
-path_offer = r'C:\Users\Elias-Acer\DH\Projeto\KASSANDR\GIT\Projeto-Digital-House\.pkl\offers.pkl'
+path_df = '/.csv/sparse_melt.csv'
+df = pd.read_csv(origin_path+path_df)
 
+path_sparse = '/.csv/sparse.csv'
+sparse = pd.read_csv(origin_path+path_sparse, index_col = 0)
 
-offer_title = pickle.load(open(path_offer, 'rb'))
-path_df = r'C:\Users\Elias-Acer\DH\Projeto\KASSANDR\GIT\Projeto-Digital-House\sparse_melt.csv'
-df = pd.read_csv(path_df)
+path_clicks_de = '/.csv/clicks_de.csv'
+clicks_de = pd.read_csv(origin_path+path_clicks_de)
 
-path_sparse = r'C:\Users\Elias-Acer\DH\Projeto\KASSANDR\GIT\Projeto-Digital-House\sparse.csv'
-sparse = pd.read_csv(path_sparse, index_col = 0)
-
-path_clicks_de = r'C:\Users\Elias-Acer\DH\Projeto\KASSANDR\GIT\Projeto-Digital-House\clicks_de.csv'
-clicks_de = pd.read_csv(path_clicks_de)
-
+path_category = '/.txt/category.txt'
+category = pd.read_csv(origin_path+path_category)
 
 
 
@@ -129,9 +133,11 @@ def printa_resultados_no_streamlit2(top_n_recommendations, offer_title):
 
 	return msg
 
+
+
 def main():
 
-	paginas = ['Home','KASANDR-DE']
+	paginas = ['Home','User-Analysis','KASANDR-DE']
 	pagina = st.sidebar.radio('Selecione uma pagina', paginas)
 
 	if pagina == 'Home':
@@ -139,6 +145,23 @@ def main():
 		st.subheader('Powered by Gabriel Guedes')
 
 		st.markdown('WebApp para analise de um sistema de recomendação sobre cliques de compras do site KELKO')
+
+# pra deixar mais simples, coloquei a função de grafico em um arquivo.py separado, assim que for construindo as outras vou colocando la, pra não deixar esse arquivo mto grande tbm
+	elif pagina == 'User-Analysis':
+		st.title('Breve EDA do usuário:')
+		#Input Data
+
+		user_disponiveis = df.User.unique()
+		user_id = st.selectbox('Selecione um usuario:', user_disponiveis)
+
+		#Code for prediction
+		results = ''
+
+		if st.button('Generate'):
+			
+			st.pyplot(user_graph(df, category, user_id))
+
+
 
 	elif pagina == 'KASANDR-DE':
 		#App Title

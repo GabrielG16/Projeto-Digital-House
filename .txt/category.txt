@@ -1,0 +1,1026 @@
+Category,Category_Name,Country
+601,Home Page,de
+172601,Auto & Motor,de
+100372023,Autoteile & Zubehör,de
+173101,Car Hi-Fi,de
+100426223,Car Hi-Fi Zubehör,de
+100278823,GPS,de
+173801,Motorradzubehör,de
+173701,"Motorräder, Roller & Quads",de
+100354123,Neuwagen & Gebrauchtwagen,de
+100384023,Reifen & Felgen,de
+100450123,Baby & Kleinkind,de
+100513023,Unterwegs,de
+100450223,Kinderwagen,de
+100472023,Kindersitze,de
+100513123,Zuhause,de
+100508823,Füttern & Stillen,de
+100508923,Babypflege & Gesundheit,de
+100450823,Babysicherheit,de
+132801,Beauty & Gesundheit,de
+134201,Augenoptik,de
+100477023,Brillen,de
+100250023,Kontaktlinsen & Zubehör,de
+133101,Beauty,de
+100046613,Kosmetik,de
+133501,Parfum,de
+133001,Drogerieprodukte,de
+100367723,Elektrorasierer & Haarschneider,de
+100314123,Haarpflege,de
+133901,Hygiene,de
+133301,Körperpflege,de
+133201,Körperpflegezubehör,de
+100512823,Zahnpflege,de
+133601,Gesundheit,de
+100327723,Bad-Elektrogeräte,de
+100291623,Gesundheit & Wellness,de
+134101,Medikamente,de
+110001,Computer & Software,de
+100326223,Computer,de
+113501,Notebooks,de
+100008213,Notebookzubehör,de
+111801,PC-Systeme & Barebones,de
+115701,Server ,de
+114601,PDA- & GPS-Zubehör,de
+100282123,Tablets & E-Book-Reader,de
+112801,Eingabegeräte,de
+113201,Tastaturen,de
+113301,Mäuse & Trackballs,de
+100239623,PC-Lenkräder,de
+100007713,Grafiktabletts,de
+100340423,KVM-Switches,de
+100282023,Kartenleser,de
+100293223,Eingabegerätezubehör,de
+113101,Joysticks & Gamepads,de
+100330623,Gehäuse & Netzteile,de
+100294523,Case Modding,de
+100216323,Gehäuse,de
+110401,Kabel,de
+100066413,Netzteile,de
+100005813,USV,de
+100330223,Karten,de
+100066813,Controller,de
+111601,Grafikkarten,de
+111501,Soundkarten,de
+100066613,TV-Karten,de
+110701,Komponenten,de
+110801,Lüfter & Kühler,de
+111101,Motherboards,de
+110901,Prozessoren,de
+115801,Laufwerke,de
+116001,CD/DVD-Laufwerke,de
+116401,Diskettenlaufwerke,de
+116501,Festplatten,de
+100043413,Streamer,de
+100330323,Multimedia,de
+100239223,Mikrofone,de
+110601,PC-Lautsprecher,de
+116901,Webcams,de
+100224023,Netzwerke,de
+100346323,Netzwerkkomponenten,de
+100340223,WLAN,de
+100326523,Peripherie,de
+100052213,All-in-One Drucker,de
+114901,Drucker,de
+114401,Monitore & Displays,de
+115401,Scanner,de
+100316423,Druckerzubehör,de
+117001,Software,de
+100326323,Speicher,de
+100291823,Arbeitsspeicher ,de
+100158013,Speicherkarten,de
+100260023,USB-Sticks,de
+100222423,Verbrauchsmaterial,de
+154001,Bürobedarf,de
+115901,Leermedien,de
+100146713,Papier & Folien,de
+100005613,Tinte & Toner,de
+136801,Einrichten & Wohnen,de
+100567613,Außenleuchten,de
+100566313,Badmöbel,de
+137001,Betten & Matratzen,de
+100389523,Bettwäsche,de
+100119813,Bilderrahmen & Alben,de
+100007613,Dekoration,de
+100441023,Gardinen & Vorhänge,de
+141901,Heimtextilien,de
+138201,Innenbeleuchtung,de
+100376523,Küchenmöbel,de
+100567513,Leuchtmittel,de
+100358623,Poster & Kunstdrucke,de
+136901,Regale & Schränke,de
+137901,Sofas & Sessel,de
+100440723,Spiegel,de
+136201,Teppiche & Auslegware,de
+138001,Tische & Stühle,de
+100299223,Wanduhren,de
+120501,Elektronik & Foto,de
+100325623,Foto & Video,de
+123501,Camcorder,de
+123601,Camcorderzubehör,de
+100444023,Digitale Bilderrahmen,de
+124901,Digitalkameras,de
+124501,Fotozubehör,de
+100060013,Hi-Fi & Audio,de
+121301,CD-Player,de
+123201,Hi-Fi-Anlagen,de
+120901,Kopfhörer,de
+122301,Lautsprecher,de
+122501,Plattenspieler,de
+100282623,Radiowecker & Wetterstationen,de
+100311523,Tuner,de
+121601,Verstärker & AV-Receiver,de
+100310623,Heimkino,de
+127201,Beamer,de
+100345923,Beamerzubehör,de
+127701,DVD- & Blu-ray-Player,de
+126701,Heimkinosysteme,de
+100325523,Fernsehen,de
+126901,Fernbedienungen,de
+100310723,Fernseh- & Audiozubehör,de
+100311823,"LCD-, LED- & 3D-Fernseher",de
+100008013,SAT-Receiver & Set-Top-Boxen ,de
+122901,Tragbare Audiogeräte,de
+100310423,Diktiergeräte,de
+122701,MP3-Player & Multimediaplayer,de
+122801,MP3-Player-Zubehör,de
+100278923,Tragbare CD-Player,de
+100282723,Tragbare Radios,de
+100471423,Entertainment,de
+5101,Bücher & Hörbücher,de
+149201,DVD & Blu-ray Filme,de
+150701,Musik-CDs,de
+100327923,Videospiele & Konsolen,de
+6513,Computer- & Videospiele,de
+112101,Konsolen,de
+112201,Konsolenzubehör,de
+128701,Essen & Trinken,de
+129801,Alkoholische Getränke,de
+100567413,Babynahrung,de
+128801,Getränke,de
+130401,Lebensmittel,de
+132601,Tabakwaren,de
+100014113,"Geschenke, Gutscheine & Tickets",de
+125301,"Handy, Telefon & Fax",de
+100006813,Mobil,de
+100010713,Handys mit Vertrag,de
+100020213,Handys ohne Vertrag,de
+125801,Handyzubehör,de
+100016013,Festnetz,de
+125601,Faxgeräte,de
+126001,Telefone & Anrufbeantworter,de
+100331323,Telefonzubehör,de
+100570713,Smartwatches,de
+134301,Heimwerken & Garten,de
+100566213,Arbeitskleidung & Arbeitsschutz,de
+143101,Automation & Sicherheitstechnik,de
+100567813,Badkeramik & Badzubehör,de
+100232023,Baustoffe,de
+100233223,Eisenwaren,de
+100565213,Elektrotechnik,de
+143401,Elektrowerkzeuge,de
+126201,Erneuerbare Energien,de
+100563013,Solarenergie,de
+138301,Gartenbedarf,de
+100356623,Gartendekoration,de
+100392423,Gartenmaschinen,de
+137701,Gartenmöbel,de
+143501,Gartenwerkzeug,de
+134501,Grillbedarf,de
+135901,Handwerkzeuge,de
+142101,Haustierbedarf,de
+138701,Pflanzen & Bewässerung,de
+100371523,Rasenmäher,de
+100462723,Swimmingpools & Zubehör,de
+144601,Küche & Haushalt,de
+100564713,Drogerie,de
+144701,Elektro-Großgeräte,de
+146301,Backöfen,de
+145001,Herde,de
+146001,Kochfelder,de
+100283023,Dunstabzugshauben,de
+141601,Geschirr & Besteck,de
+100498923,Haushalt,de
+147801,Bügeleisen,de
+139401,Haushaltswaren,de
+100323123,Heizungen & Klimageräte,de
+100322923,Reinigungsgeräte & Zubehör ,de
+145101,Spülmaschinen,de
+146501,Staubsauger,de
+145401,Trockner,de
+146601,Waschmaschinen,de
+100496023,Nähmaschinen,de
+100323223,Kochen & Backen,de
+147301,Eierkocher,de
+100283323,Elektrogrills,de
+100014713,Fondue & Raclette,de
+147201,Fritteusen,de
+147101,Kaffee- & Espressomaschinen,de
+146201,Mikrowellen,de
+148301,Toaster,de
+4513,Wasserkocher,de
+147701,Küchenmaschinen,de
+147901,Saftpressen,de
+148001,Schneidemaschinen,de
+146901,Handrührer & Mixer,de
+146801,Küchengeräte,de
+140401,Kochgeschirr,de
+140001,Küchenutensilien,de
+100323023,Kühlen & Gefrieren,de
+145701,Gefrierschränke,de
+145801,Kühlkombinationen,de
+146401,Kühlschränke,de
+100014413,Weinschränke,de
+107301,Mode & Accessoires,de
+100364723,"Accessoires, Schmuck & Uhren",de
+107401,Accessoires,de
+100392523,Armbanduhren,de
+170101,Koffer & Reisegepäck,de
+100568013,Rucksäcke,de
+108701,Schmuck,de
+100317323,Sonnenbrillen,de
+100334223,Taschen,de
+100248423,Kleidung,de
+108301,Damenmode,de
+108801,Damenunterwäsche,de
+108101,Herrenmode,de
+108901,Herrenunterwäsche,de
+108501,Baby- & Kindermode,de
+100052013,Umstandsmode,de
+100332423,Bademode Damen,de
+100332523,Bademode Herren,de
+169901,Reisen & Flüge,de
+100438023,Ferienhäuser & Ferienwohnungen,de
+172201,Flüge,de
+170701,Hotels,de
+172301,Mietwagen,de
+109101,Schuhe,de
+109401,Damenschuhe,de
+109301,Herrenschuhe,de
+100483023,Kinderschuhe,de
+100564913,Sportschuhe Damen,de
+100565013,Sportschuhe Herren,de
+100565113,Sportschuhe Kinder,de
+117901,Spiel & Hobby,de
+168301,Babyspielzeug,de
+100001,Basteln & Malen,de
+100082113,Fanartikel,de
+7113,Gesellschaftsspiele,de
+100484623,Karneval & Fasching,de
+100361223,Musizieren,de
+100342923,DJ-Equipment ,de
+152401,Musikinstrumente,de
+100434023,Musikinstrumentenzubehör,de
+100361423,Noten,de
+100201,Sammeln & Seltenes,de
+100360623,Schulausstattung,de
+168001,Spielzeug,de
+100302923,Spielzeug für Draußen,de
+163601,Sport & Fitness,de
+164901,Angelsport & Jagdsport,de
+164401,Camping & Outdoor,de
+165101,Fitness & Leichtathletik,de
+163801,Mannschaftssport,de
+164501,Outdoor-Ausrüstung,de
+164801,Radsport,de
+100544223,Fahrradteile & Fahrradzubehör,de
+100544023,Fahrräder,de
+100229323,Sport,de
+165201,Golf,de
+165701,Racketsport,de
+166401,Skaten,de
+174201,Wintersport,de
+100014313,Sportartikel,de
+164701,Sportbekleidung,de
+100332223,Sportbekleidung Damen,de
+100332323,Sportbekleidung Herren,de
+100572513,Sportbekleidung Kinder,de
+134001,Sporternährung,de
+166501,Wassersport,de
+100346123,Weitere Kategorien,de
+128001,Erotik,de
+128401,Erotik-DVDs & -CDs,de
+128101,Erotikliteratur,de
+100345723,Erotischer Schmuck,de
+100270523,Fetisch,de
+100270223,Kondome,de
+100270123,Sex Gags,de
+128601,Sexspielzeug,de
+100345823,Sexdrogerie,de
+100270423,Sexy Mode & Dessous ,de
+100091613,Fundgrube,de
+601,Home Page,fr
+128701,"Alimentation, boissons et tabac",fr
+100567413,Alimentation bébé,fr
+130401,Alimentation et Gastronomie,fr
+132601,Articles pour fumeurs ,fr
+129801,Alcool et Vin,fr
+128801,"Eau, Soda et Boisson",fr
+172601,Auto et Moto,fr
+173001,Auto,fr
+100304123,Accessoires GPS,fr
+100085613,Accessoires multimédia auto,fr
+173101,Autoradio et Vidéo embarquée,fr
+7313,Accessoires Auto,fr
+100278823,GPS,fr
+100354123,Voiture Neuve et d'Occasion,fr
+100384023,Pneus,fr
+100325323,Moto et 2 Roues,fr
+173801,Accessoires Moto,fr
+100012613,Moto Neuve et d'Occasion,fr
+100325423,Services Auto et Moto,fr
+100450123,Bébé et Enfant,fr
+100334923,Puériculture et Maternité,fr
+100508823,"Biberon, tétine et accessoires",fr
+100451123,Allaitement,fr
+100513123,Chauffe biberon et stérilisateur,fr
+100508723,Mobilier de puériculture,fr
+100450823,Pot et réducteur WC,fr
+100450223,Chaise haute et réhausseur,fr
+100450523,Sucette,fr
+100450723,Vaisselle et couverts bébé,fr
+100540023,Couches et accessoires de change,fr
+100451223,Baignoire et accessoires de bain,fr
+100450923,Sécurité enfant,fr
+100450323,Poussette et landau,fr
+100450423,Siège auto,fr
+100451023,Babyphone,fr
+100450623,Porte bébé,fr
+100007413,Cadeaux & Fleurs,fr
+100305123,Jeux et Loisirs,fr
+100091013,Cadeaux pour une occasion,fr
+100299723,Noël,fr
+100300223,Saint Valentin,fr
+158801,Mariage,fr
+100300023,Fête des mères,fr
+100299923,Fête des pères,fr
+100492023,Fête des grands mères,fr
+100093413,Rentrée,fr
+100402023,Soldes,fr
+100420123,Coupe du monde de la FIFA,fr
+100305223,Mode et Glamour,fr
+100306123,High-tech tendance,fr
+100222623,Escapade et Coffret cadeau,fr
+100305323,Maison et Décoration,fr
+100007513,Fleurs,fr
+100327823,Gadgets et Cadeaux personnalisés,fr
+100138013,Cadeau original,fr
+100306223,Beauté et Bien-être,fr
+100306023,Cadeaux Bébé et Enfant,fr
+100306423,Gastronomie et Art de vivre,fr
+100306523,Cadeau coquin,fr
+109101,Chaussures,fr
+100565113,Chaussures de sport Enfant,fr
+100564913,Chaussures de sport Femme,fr
+100565013,Chaussures de sport Homme,fr
+100483023,Chaussures Enfant,fr
+109401,Chaussures Femme,fr
+109301,Chaussures Homme,fr
+144601,Electroménager,fr
+100323223,Cuisson,fr
+145001,Cuisinière,fr
+146301,Four,fr
+146201,Micro-ondes,fr
+146001,Table de cuisson,fr
+100283023,Hotte Aspirante,fr
+100323023,Froid et Conservation,fr
+100014413,Cave à vin,fr
+145701,Congélateur,fr
+146401,Réfrigérateur,fr
+145801,Combiné Réfrigérateur / Congélateur,fr
+100322923,Lavage et Nettoyage,fr
+146501,Aspirateur,fr
+100392923,Cireuse,fr
+147801,Centrale vapeur et Fer à repasser,fr
+146601,Lave-linge,fr
+145101,Lave-vaisselle,fr
+100014513,Nettoyeurs Vapeur,fr
+145401,Sèche-linge,fr
+100324923,Petit Electroménager,fr
+146701,Accessoires électroménager,fr
+100289123,Autre petit électromenager de cuisine,fr
+100342023,Balance de cuisine,fr
+146901,Blender Batteur Mixeur,fr
+4513,Bouilloire,fr
+147101,Cafetière et Expresso,fr
+100282923,Croque-Monsieur & Gaufrier,fr
+148101,Cuit vapeur Cuiseur Mijoteur,fr
+100340123,Fondue & Wok,fr
+147201,Friteuse,fr
+148301,Grille-pain & Toaster,fr
+100332823,Machine à coudre,fr
+147001,Machine à pain,fr
+147901,Presse-agrumes/ Centrifugeuse,fr
+100014713,Raclette Crêpière Pierre à griller,fr
+147701,Robot Ménager,fr
+313,Sorbetière & Glacier,fr
+100323123,Chauffage et climatisation,fr
+144801,Climatiseur et ventilateur,fr
+159001,"Finance, immobilier et vie pratique",fr
+100327423,Vie pratique,fr
+100091613,Divers,fr
+100014113,Faire-part et Cartes de voeux,fr
+137601,Petites fournitures de bureau,fr
+100137713,Code promo,fr
+120501,"Hifi, Photo & Vidéo",fr
+123301,Photo & Vidéo,fr
+123401,Accessoire Image,fr
+124901,Appareil Photo Numérique,fr
+126301,Batterie Photo et Vidéo,fr
+100119813,Cadre et album photo,fr
+100444023,Cadre photo numérique,fr
+123501,Caméscope,fr
+100158013,Carte Mémoire,fr
+100248123,Jumelle & Télescope,fr
+100282023,Lecteur de Carte Mémoire,fr
+127501,Tv & Cinema,fr
+100303723,Antenne et accessoires réception TV,fr
+100008013,Décodeur TNT et Satellite,fr
+100374123,Ecran et Accessoires Vidéoprojecteur,fr
+126701,Home Cinéma,fr
+127701,Lecteur DVD et Blu Ray,fr
+100304323,Lecteur enregistreur DVD,fr
+100311823,Téléviseur,fr
+127201,Vidéoprojecteur,fr
+120701,Hifi et Son,fr
+120801,Accessoire Son,fr
+121601,Amplificateur,fr
+100278923,Baladeur CD,fr
+120901,Casque Audio & Micro,fr
+123201,Chaîne Hifi,fr
+100248323,Dictaphone,fr
+122501,Elément Séparé,fr
+122301,Enceintes Home Cinéma et Hifi,fr
+110601,Enceintes PC et Multimedia,fr
+100010113,Home Studio / Equipement DJ,fr
+122701,Lecteur MP3 / Multimédia,fr
+100248223,Micro,fr
+121301,Platine CD,fr
+100282723,Radio portable,fr
+100282623,Réveil et Station météo,fr
+110001,Informatique,fr
+100326223,Ordinateurs,fr
+111801,Ordinateur PC & Mac,fr
+113501,Ordinateur Portable,fr
+100282123,Tablette multimédia,fr
+110701,Composant,fr
+100066713,Accessoires pour boîtier,fr
+100066413,Alimentation PC,fr
+100066113,Batterie Informatique,fr
+100216323,Boîtier PC,fr
+100066813,Carte Contrôleur,fr
+111601,Carte Graphique,fr
+111101,Carte Mère,fr
+111501,Carte Son,fr
+100066613,Carte d'acquisition TV / Vidéo,fr
+100291823,Mémoire PC,fr
+110901,Processeur,fr
+100294523,Tuning et Watercooling,fr
+110801,Ventilateur PC,fr
+112801,Périphérique,fr
+113201,Clavier,fr
+114401,"Ecran, moniteur",fr
+114901,Imprimante,fr
+100052213,Imprimante multifonctions,fr
+100239223,Microphone,fr
+115401,Scanner,fr
+113301,Souris,fr
+100007713,Tablette Graphique ,fr
+116901,Webcam,fr
+125901,Photocopieur,fr
+100224023,Réseau,fr
+100340323,Antenne Wifi,fr
+111301,Carte Réseau,fr
+100340423,Commutateur KVM,fr
+100293623,Courant porteur (CPL),fr
+100066213,"Hub, Switch et Routeur",fr
+100005813,Onduleur,fr
+100340223,Point d'accès pour réseaux sans fil,fr
+100393223,Serveur,fr
+115701,Serveur d'impression,fr
+100238623,Accessoires et clés bluetooth,fr
+100326323,Stockage,fr
+100260023,Clé USB,fr
+116501,Disque dur,fr
+100003613,Graveur DVD et CD,fr
+100043113,Lecteur de bande magnétique,fr
+116301,Lecteur DVD-Rom,fr
+116401,Lecteur de disquettes,fr
+111701,Consommable & Accessoires,fr
+115001,Accessoires pour imprimante,fr
+100008213,Accessoires pour ordinateur portable,fr
+100239723,Accessoires pour écran,fr
+115901,"CD/DVD vierge, Disquette, Zip...",fr
+100005613,"Encre, Cartouche, Toner",fr
+110201,Housse / Rangement,fr
+100146713,Papier pour impression,fr
+100292823,Pavé Numérique,fr
+100316723,Produits d'entretien informatique,fr
+100239423,Tapis de souris,fr
+110401,Connectique,fr
+100326423,Logiciels et Services informatiques,fr
+117001,Logiciel,fr
+104201,Jardin et Bricolage,fr
+138301,Aménagement extérieur,fr
+134501,"Barbecue, Plancha et Accessoires",fr
+100356623,Décoration de jardin,fr
+100567613,Eclairage extérieur,fr
+100566213,Equipement de travail et de protection,fr
+138701,Jardinage,fr
+137701,Mobilier de jardin,fr
+100392423,Outillage de jardin motorisé,fr
+143501,Outillage de jardin à main,fr
+135901,Outillage à main,fr
+143401,Outillage électro-portatif,fr
+100462723,Piscine et Spa,fr
+100371523,Tondeuse à gazon,fr
+117901,Jeux vidéo et Jouets,fr
+168001,Jouets,fr
+7113,Jeux,fr
+168301,Jouets bébé,fr
+100001,Loisirs créatifs,fr
+100302923,Jeux de plein air,fr
+100484623,Déguisements et Accessoires de fête,fr
+112101,Console de jeux,fr
+6513,Jeux Vidéo,fr
+112201,Accessoires Consoles & PC,fr
+112901,Joystick,fr
+100239623,Volant,fr
+150401,"Livre, Musique, Film",fr
+148401,Film,fr
+149201,"DVD, Blu-Ray",fr
+100298223,Produits dérivés,fr
+100095913,Musique,fr
+150701,CD,fr
+100801,Livres et magazines,fr
+5101,Livres,fr
+134301,Maison et Ameublement,fr
+140001,Accessoires et Ustensiles de cuisine,fr
+100567513,Ampoule,fr
+100232223,Chauffage,fr
+100299123,Chauffage au Poêle,fr
+100358023,Sèche-Serviettes,fr
+145901,Radiateur électrique,fr
+100314223,Chauffage d'appoint,fr
+100564713,Droguerie,fr
+100007613,Décoration,fr
+138201,Eclairage intérieur,fr
+100299223,Horloge,fr
+100389523,Linge de lit,fr
+141901,Linge de maison,fr
+100357123,Matériaux et Equipement de la maison,fr
+100565213,Electricité,fr
+100376523,Equipement de cuisine,fr
+100567813,Equipement de salle de bain,fr
+100232023,Matériaux,fr
+100566313,Mobilier de salle de bain,fr
+136101,Plomberie,fr
+100233223,Quincaillerie,fr
+143101,Sécurité et Domotique,fr
+100233623,Traitement de l'eau & de l'air,fr
+100440723,Miroir,fr
+100441023,Rideaux et Voilages,fr
+100358623,Tableau et Poster,fr
+136201,Tapis,fr
+140401,Ustensiles de cuisson,fr
+141601,Vaisselle et Couverts,fr
+136801,Mobilier de maison,fr
+137901,Canapé et Fauteuil,fr
+137001,Literie,fr
+136901,Meuble de rangement,fr
+138001,Table et Chaise,fr
+107301,Mode & Accessoires,fr
+108301,Vêtement Femme,fr
+108801,Lingerie Femme,fr
+108101,Vêtement Homme,fr
+100471123,Accessoires Mode,fr
+170101,Bagages,fr
+108701,Bijoux,fr
+100317323,Lunettes de Soleil,fr
+100392523,Montre,fr
+107401,Petits accessoires mode,fr
+100568013,Sac à dos,fr
+100334223,Sacs,fr
+100052013,Vêtement Femme enceinte,fr
+100303423,Mode et accessoires enfant,fr
+108501,Vêtement Enfant ,fr
+100572513,Vêtement de sport Enfant,fr
+108901,Sous-vêtements homme,fr
+100332423,Maillot de bain Femme,fr
+100332523,Maillot de bain Homme,fr
+100332223,Vêtement de sport Femme,fr
+100332323,Vêtement de sport Homme,fr
+132801,Santé - Beauté,fr
+100327623,Cosmétique et Parfum,fr
+100290623,Accessoires Beauté,fr
+133101,Maquillage,fr
+133501,Parfum,fr
+133301,Soin du corps et du visage,fr
+133001,Soin du Visage,fr
+100532023,Soin du Corps,fr
+100327723,Appareil santé beauté,fr
+100291723,Soin Capillaire,fr
+100046513,Produit Solaire,fr
+133901,Produit pour l'hygiène,fr
+100291623,Santé,fr
+132701,Diététique et Bien-être,fr
+133801,"Intimité, Préservatif",fr
+134201,Lentilles de contact et Lunettes de vue,fr
+100028613,Matériel Médical,fr
+100028913,Premiers Soins,fr
+100091913,Relaxation & Parapharmacie,fr
+134001,Vitamines et Compléments,fr
+128001,Sexy / Erotique,fr
+128601,Accessoires Erotiques,fr
+100048013,DVD Erotiques,fr
+128301,Lingerie & sous-vêtements sexy,fr
+163601,Sport & Loisirs,fr
+100014813,Loisirs,fr
+167401,Billetterie & Sortie,fr
+100123913,Coffret Cadeau,fr
+152401,Instruments de musique,fr
+152501,Partition de Musique,fr
+142101,Produits Animaux domestiques,fr
+165101,Athlétisme et Sports en salle,fr
+164901,Chasse et Pêche,fr
+165201,Golf,fr
+163801,Sports collectifs,fr
+165701,Sports de raquette,fr
+174201,Sports d'hiver,fr
+164401,Sports nature,fr
+166501,Sports Nautiques,fr
+166401,Sports urbains et Sports de glace,fr
+100544023,Vélo,fr
+100544223,Accessoires vélo,fr
+100014313,Autres sports,fr
+125301,Téléphonie,fr
+100010713,Téléphonie mobile,fr
+125801,Accessoires pour téléphone portable,fr
+100570713,Montre connectée,fr
+100006813,Téléphone portable avec abonnement,fr
+100052113,Téléphone portable avec carte prépayée,fr
+100020213,Téléphone portable sans abonnement,fr
+100016013,Téléphonie fixe,fr
+126001,Téléphone Fixe & VoIP,fr
+125601,Fax,fr
+169901,Voyages,fr
+172201,Billet d'Avion,fr
+100101713,Camping et Mobil Home,fr
+171401,Croisière,fr
+170701,Hôtel,fr
+170201,Location de vacances,fr
+172301,Location de voiture,fr
+100020613,Séjour,fr
+100012513,Week-end et escapade,fr
+100364123,Voyages de luxe,fr
+171601,Dernière Minute,fr
+100101913,Séjour en France,fr
+100363523,Thalasso & Spa ,fr
+100020413,Vacances Ski,fr
+100448023,Vol + Hôtel,fr
+601,Home Page,it
+134401,Casa,it
+134301,Prodotti per la Casa,it
+100376523,Lavelli e Miscelatori Cucina,it
+140401,Pentole e padelle,it
+141601,Posate e stoviglie,it
+140001,Utensili e accessori cucina,it
+100299223,Orologi per la casa,it
+100282623,Sveglie e stazioni meteo,it
+141901,Biancheria per la casa,it
+100389523,Biancheria da letto,it
+136201,Tappeti,it
+100441023,Tende e tendaggi,it
+100440723,Specchi,it
+100358623,Quadri e poster,it
+100119813,Cornici e album foto,it
+100007613,Oggetti per la casa e accessori,it
+136101,Stufe e Caldaie,it
+100566313,Arredo Bagno,it
+100567813,Sanitari e Accessori Bagno,it
+100564713,Pulizia della Casa,it
+136801,Arredamento,it
+137001,Letti e Materassi,it
+136901,Mobili e Armadi,it
+137901,Poltrone e Divani,it
+138001,Tavoli e Sedie,it
+100506023,Illuminazione,it
+138201,Illuminazione interni,it
+100567513,Lampadine,it
+100567613,Illuminazione da esterno,it
+100357523,Hobby e Fai da te,it
+100566213,Antinfortunistica e Abbigliamento da Lavoro,it
+135901,Utensili a mano,it
+143401,Utensili elettrici,it
+100232023,Materiali da costruzione,it
+100233523,Altri Attrezzi per Bricolage e Fai da te,it
+100233223,Ferramenta,it
+100565213,Materiale elettrico e componenti elettronici,it
+104201,Giardino,it
+137701,Arredo Giardino,it
+142101,Prodotti per Animali,it
+100462723,Piscine e Spa,it
+138701,Giardinaggio,it
+134501,Barbecue e Accessori,it
+143501,Attrezzi da Giardino manuali,it
+100392423,Attrezzi da Giardino elettrici,it
+100371523,Tagliaerba,it
+100356623,Decorazioni da Giardino,it
+138301,Attrezzature utilizzate all'aperto,it
+144601,Elettrodomestici,it
+146801,Climatizzazione e Riscaldamento,it
+144801,Climatizzatori e Condizionatori,it
+139801,Grandi Elettrodomestici per la cucina,it
+146001,Piani cottura,it
+100282823,Cucine,it
+100288323,Forni,it
+4513,Cappe,it
+100288923,Piccoli Elettrodomestici per la cucina,it
+148301,Tostapane,it
+100289123,Spremiagrumi,it
+100014713,Centrifughe,it
+147301,Bollitori,it
+147701,Robot da cucina,it
+147101,Macchine da caffè,it
+147201,Friggitrici,it
+148001,Affettatrici,it
+113,Vaporiere,it
+313,Gelatiere,it
+100289023,Sbattitori,it
+147001,Impastatrici,it
+100342023,Bilance da cucina,it
+100288423,Grattugie elettriche,it
+100330523,Macchine per il pane,it
+147601,Tritacarne,it
+100289323,Bistecchiere e Griglie,it
+146201,Microonde,it
+100343023,Frullatori,it
+100498923,Altri elettrodomestici,it
+100323323,Accessori per Elettrodomestici,it
+144701,Frigoriferi e Congelatori,it
+146401,Frigoriferi monoporta,it
+145801,Frigoriferi combinati,it
+145701,Congelatori,it
+100014413,Frigo cantina,it
+100229923,"Pulizia, Stiro e Cucito",it
+146501,Aspirapolvere,it
+147801,Ferri da stiro,it
+146601,Lavatrici e Lavasciuga,it
+145101,Lavastoviglie,it
+145201,Asciugabiancheria,it
+100496023,Macchine da cucire,it
+100566113,Attrezzature per la ristorazione,it
+127501,Elettronica,it
+100101,Foto e Video,it
+124901,Fotocamere digitali,it
+124401,Fotocamere analogiche,it
+123501,Videocamere,it
+100294723,Borse per foto e video,it
+100295023,Flash,it
+124701,Batterie e Accessori per foto e video,it
+100444023,Cornici digitali,it
+100304223,Obiettivi,it
+100105013,Filtri e lenti,it
+100301,TV e Home Cinema,it
+127701,Lettori DVD e DiVX,it
+100304323,DVD recorder,it
+126701,Home Theatre,it
+100311823,Televisori,it
+127201,Videoproiettori,it
+127601,Accessori audio/video,it
+100008013,Decoder,it
+100303923,"Parabole, LNB, Cam e Smartcard",it
+100015413,Occhiali 3D,it
+100601,Audio Portatile,it
+122701,Lettori MP3 e Multimediali,it
+100396123,Accessori per Lettori MP3,it
+120901,Auricolari e cuffie,it
+122801,Custodie per lettori musicali,it
+100126013,Speaker e Docking station per lettori musicali,it
+100017113,Hifi e Componenti,it
+123201,Impianti HiFi,it
+121601,Amplificatori e Sintoamplificatori,it
+122301,Casse acustiche,it
+121401,Componenti Audio,it
+100248223,Microfoni,it
+121201,"Registratori, Radio e Stereo portatili",it
+123101,Radio,it
+100248323,Registratori vocali,it
+100282723,Stereo portatili,it
+100118313,Car Stereo,it
+121001,Accessori per Autoradio,it
+173101,Autoradio,it
+100118413,Autoradio: Sistemi multimediali,it
+100278823,Navigatori GPS,it
+100501,Vari e Altri,it
+143101,Automazione e sicurezza casa,it
+100304423,Videosorveglianza,it
+100024813,Ricetrasmettitori e accessori,it
+117901,Giochi e Giocattoli,it
+168001,Giocattoli e Peluche,it
+7113,Giochi,it
+100302923,Giochi all'aperto,it
+100001,Attività creative,it
+168301,Giochi per Bambini,it
+100484623,Maschere e Costumi,it
+100007413,Idee Regalo,it
+100305123,Giochi e Divertimenti,it
+100091013,Eventi e Ricorrenze,it
+100299723,Regali di Natale,it
+100492023,Regali per San Valentino,it
+100425123,Regali di Matrimonio,it
+100492123,Regali per la Festa della Mamma,it
+100299923,Regali per la Festa del Papà,it
+100424423,Bimbo in arrivo,it
+100424623,Regali di Compleanno,it
+100424223,Inaugurazione di una Casa,it
+100424723,Tutti a scuola,it
+100420123,Coppa del Mondo FIFA 2014,it
+100425023,Saldi,it
+100305223,Moda e Stile,it
+100306123,Prodotti Elettronici Trendy,it
+100222623,Esperienze e Brevi Vacanze,it
+146901,Esperienze,it
+100305323,Complementi per la Casa,it
+100327823,Regali Personalizzati,it
+100305023,Gadget,it
+100306023,Neonati e Bambini,it
+100306423,Enologia,it
+110101,Informatica,it
+100201,Computer e Software,it
+113501,Portatili,it
+100316323,Borse e custodie per portatili,it
+111801,Desktop,it
+115701,Server,it
+117001,Software,it
+114601,Accessori Palmari e GPS,it
+100282123,Tablet e eBook reader,it
+100084313,Periferiche,it
+114401,Monitor,it
+113301,Accessori Informatica,it
+100052213,Multifunzione,it
+115401,Scanner,it
+114901,Stampanti,it
+116901,Webcam,it
+100317623,Mouse,it
+113201,Tastiere,it
+100084113,Componenti Hardware,it
+100066113,Controller,it
+100005813,Gruppi di continuità,it
+116501,Hard Disk,it
+115801,Masterizzatori,it
+111001,Memorie R.A.M.,it
+110901,Processori,it
+100066613,Schede acquisizione e TV,it
+111501,Schede audio,it
+111101,Schede madri,it
+111601,Schede video,it
+116701,Hard disk esterni,it
+100498523,Media Player,it
+100343223,Supporti di Memoria,it
+100333823,Pen Drive,it
+100338523,Secure Digital,it
+100066713,Compact Flash,it
+100318523,Memory Stick,it
+110301,Altre memory card,it
+100066413,Adattatori e Lettori Memory Card,it
+100316523,CD e DVD vergini,it
+100084013,Networking,it
+100066313,Hub e Switch,it
+100116213,Schede di rete,it
+100066213,Modem e router wireless,it
+111301,Prodotti Vari per Networking,it
+154001,Prodotti per Scuola e Ufficio,it
+154701,Accessori per ufficio,it
+154201,Macchine per ufficio,it
+100374123,Schermi per videoproiezione,it
+100360623,Prodotti per la scuola,it
+100005613,Consumabili per la Stampa,it
+115001,Toner,it
+115101,Cartucce,it
+115201,Kit di ricarica,it
+100242023,Carta,it
+100117613,Nastri,it
+100014813,Videogiochi e Accessori,it
+6513,Videogiochi,it
+112101,Console,it
+174301,Accessori Console,it
+112701,Controller per console,it
+148401,"Libri, Dvd e Video",it
+100471423,Intrattenimento,it
+5101,Libri,it
+149201,"Dvd, Blu-Ray",it
+6213,Moda e Accessori,it
+100344423,Moda Donna,it
+108301,Abbigliamento Donna,it
+100317223,Abiti Donna,it
+100317423,Camicie Donna,it
+100317123,Gonne,it
+100248423,Pantaloni Donna,it
+100248023,Magliette e T-shirts Donna,it
+107801,Maglieria Donna,it
+100331523,Giacche Donna,it
+100331423,Cappotti e Giacconi Donna,it
+100332423,Costumi da bagno Donna,it
+108801,Intimo femminile,it
+100052013,Abbigliamento Premaman,it
+107901,Moda Uomo,it
+108101,Abbigliamento Uomo,it
+100344123,Camicie Uomo,it
+100332023,Pantaloni Uomo,it
+100332123,Magliette e T-shirts Uomo,it
+100344523,Maglieria Uomo,it
+100344223,Giacche Uomo,it
+100331823,Cappotti e Giacconi Uomo,it
+100332523,Costumi da bagno Uomo,it
+108901,Intimo maschile,it
+100480923,Accessori,it
+170101,Valigeria,it
+100334223,Borse e borsette,it
+100568013,Zaini,it
+107401,Accessori uomo e donna,it
+108701,Gioielleria e Bigiotteria,it
+100392523,Orologi,it
+109801,Ottica,it
+100317323,Occhiali da sole,it
+100477023,Occhiali da vista,it
+100250023,Lenti a contatto,it
+109901,Telescopi e Microscopi,it
+100086213,Cannocchiali e Binocoli,it
+109101,Calzature,it
+109401,Scarpe Donna,it
+109301,Scarpe Uomo,it
+100483023,Scarpe per Bambini,it
+100564913,Scarpe Sportive Donna,it
+100565013,Scarpe Sportive Uomo,it
+100565113,Scarpe Sportive per Bambini,it
+150401,Musica,it
+150501,CD e Strumenti Musicali,it
+150701,CD,it
+150801,"Strumenti, Amplificazione ed Effetti",it
+100232823,Prodotti per l'Infanzia,it
+100450623,Seggioloni e Fasciatoi,it
+100466023,Girelli,it
+100322323,Passeggini e Carrozzine,it
+100450423,Seggiolini auto,it
+142701,Vari Prodotti per Bambini e Neonati,it
+108501,Abbigliamento Bambino,it
+132801,Salute e Bellezza,it
+100040013,Cura della Persona,it
+100289623,Asciugacapelli,it
+100289423,Aerosol,it
+100289923,Personal Care,it
+100290223,Accessori Personal Care,it
+133301,Prodotti per Viso e Corpo,it
+133001,Prodotti per il Viso,it
+100532023,Prodotti per il Corpo,it
+100291723,Prodotti per i Capelli,it
+133101,Make up,it
+100327623,Profumeria,it
+133501,Profumi,it
+100291623,Salute,it
+134001,Integratori,it
+100530323,Vari Benessere,it
+125301,Telefonia,it
+100084613,Telefonia Mobile,it
+100020213,Cellulari e Palmari,it
+100570713,Smartwatch,it
+100042013,Accessori Telefonia,it
+100084413,Telefonia Fissa,it
+126001,Telefoni,it
+125601,Fax,it
+128701,Vini e Gastronomia,it
+130401,Gastronomia,it
+100567413,Omogeneizzati e alimentazione bambini,it
+132601,Prodotti per fumatori,it
+128801,Succhi di frutta e Bibite,it
+129801,Vini e Liquori,it
+169901,Viaggi e Vacanze,it
+170701,Alberghi e Hotel,it
+172201,Biglietti Aerei,it
+172301,Noleggio Auto,it
+171601,Ultimo Minuto,it
+171101,Vacanze,it
+161701,Servizi Immobiliari,it
+100298123,Altri prodotti (comprende tutte le offerte senza codice EAN),it
+163601,Sport e Tempo Libero,it
+164701,Abbigliamento e Calzature Sportive,it
+100332223,Abbigliamento Sportivo Donna,it
+100332323,Abbigliamento Sportivo Uomo,it
+100572513,Abbigliamento Sportivo per Bambini,it
+100014313,Altri Sport,it
+164901,Caccia e Pesca,it
+164801,Ciclismo,it
+100544223,Accessori per ciclismo,it
+100544023,Biciclette,it
+165101,"Fitness, atletica e sport indoor",it
+165201,Golf,it
+166401,In line,it
+166501,Sport acquatici,it
+164401,Sport all'aperto,it
+165701,Sport con racchette,it
+163801,Sport di squadra,it
+174201,Sport invernali,it
+100040213,Automobili e Moto,it
+100274623,Accessori Auto e Moto,it
+100384023,Pneumatici Auto,it
