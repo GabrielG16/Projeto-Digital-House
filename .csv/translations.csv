@@ -1,0 +1,1026 @@
+﻿Category;Category_Name;Country;Translate
+113;Vaporiere;it;steamers
+313;Gelatiere;it;Ice Cream Makers
+313;Sorbetière & Glacier;fr;Ice Cream Makers
+601;Home Page;it;Home page
+601;Home Page;fr;Home page
+601;Home Page;de;Home page
+4513;Cappe;it;Hoods
+4513;Bouilloire;fr;kettle
+4513;Wasserkocher;de;kettle
+5101;Libri;it;Books & Audio Books
+5101;Livres;fr;Books & Audio Books
+5101;Bücher & Hörbücher;de;Books & Audio Books
+6213;Moda e Accessori;it;Fashion and Accessories
+6513;Videogiochi;it;Video games
+6513;Jeux Vidéo;fr;Video games
+6513;Computer- & Videospiele;de;Video Games
+7113;Giochi;it;Games
+7113;Jeux;fr;Games
+7113;Gesellschaftsspiele;de;Games
+7313;Accessoires Auto;fr;Auto Accessories
+100001;Attività creative;it;creative activities
+100001;Loisirs créatifs;fr;creative activities
+100001;Basteln & Malen;de;Crafts and Paints
+100101;Foto e Video;it;Photo and video
+100201;Computer e Software;it;Computers and Software
+100201;Sammeln & Seltenes;de;Toys and Hobbies
+100301;TV e Home Cinema;it;TV and Home Cinema
+100501;Vari e Altri;it;Various and Other
+100601;Audio Portatile;it;Portable Audio
+100801;Livres et magazines;fr;Books and magazines
+104201;Giardino;it;Garden
+104201;Jardin et Bricolage;fr;Garden
+107301;Mode & Accessoires;fr;Fashion and Accessories
+107301;Mode & Accessoires;de;Fashion and Accessories
+107401;Accessori uomo e donna;it;Accessories
+107401;Petits accessoires mode;fr;Acessories
+107401;Accessoires;de;Acessories
+107801;Maglieria Donna;it;Women's Knitwear
+107901;Moda Uomo;it;Men fashion
+108101;Abbigliamento Uomo;it;Men's Fashion
+108101;Vêtement Homme;fr;Men's Fashion
+108101;Herrenmode;de;Men's Fashion
+108301;Abbigliamento Donna;it;Women's Fashion
+108301;Vêtement Femme;fr;Women's Fashion
+108301;Damenmode;de;Women's Fashion
+108501;Abbigliamento Bambino;it;Baby and Children's Fashion
+108501;Vêtement Enfant;fr;Baby and Children's Fashion
+108501;Baby- & Kindermode;de;Baby and Children's Fashion
+108701;Gioielleria e Bigiotteria;it;Jewelry
+108701;Bijoux;fr;Jewelry
+108701;Schmuck;de;Jewelry
+108801;Intimo femminile;it;Lingerie
+108801;Lingerie Femme;fr;Lingerie
+108801;Damenunterwäsche;de;Lingerie
+108901;Intimo maschile;it;Men's Underwear
+108901;Sous-vêtements homme;fr;Men's Underwear
+108901;Herrenunterwäsche;de;Men's Underwear
+109101;Calzature;it;Shoes
+109101;Chaussures;fr;Shoes
+109101;Schuhe;de;Shoes
+109301;Scarpe Uomo;it;Men's Shoes
+109301;Chaussures Homme;fr;Men's Shoes
+109301;Herrenschuhe;de;Men's Shoes
+109401;Scarpe Donna;it;Women's Shoes
+109401;Chaussures Femme;fr;Women's Shoes
+109401;Damenschuhe;de;Women's Shoes
+109801;Ottica;it;Optics
+109901;Telescopi e Microscopi;it;Telescopes and microscopes
+110001;Informatique;fr;Computing
+110001;Computer & Software;de;Computer and Software
+110101;Informatica;it;Computing
+110201;Housse / Rangement;fr;Cover and Storage
+110301;Altre memory card;it;Memory cards
+110401;Connectique;fr;Connectors
+110401;Kabel;de;Connectors
+110601;Enceintes PC et Multimedia;fr;Computer Speakers
+110601;PC-Lautsprecher;de;Computer Speakers
+110701;Composant;fr;Components
+110701;Komponenten;de;Components
+110801;Ventilateur PC;fr;Fans and Coolers
+110801;Lüfter & Kühler;de;Fans and Coolers
+110901;Processori;it;Processors
+110901;Processeur;fr;Processors
+110901;Prozessoren;de;Processors
+111001;Memorie R.A.M.;it;RAM memories
+111101;Schede madri;it;Motherboards
+111101;Carte Mère;fr;Motherboards
+111101;Motherboards;de;Motherboards
+111301;Prodotti Vari per Networking;it;Network card
+111301;Carte Réseau;fr;Network card
+111501;Schede audio;it;Soundcard
+111501;Carte Son;fr;Soundcard
+111501;Soundkarten;de;Soundcard
+111601;Schede video;it;Graphic card
+111601;Carte Graphique;fr;Graphic card
+111601;Grafikkarten;de;Graphic card
+111701;Consommable & Accessoires;fr;Consumables & Accessories
+111801;Desktop;it;Desktop Computers
+111801;Ordinateur PC & Mac;fr;Desktop Computers
+111801;PC-Systeme & Barebones;de;PC Systems & Barebones
+112101;Console;it;Game console
+112101;Console de jeux;fr;Game console
+112101;Konsolen;de;Game console
+112201;Accessoires Consoles & PC;fr;Consoles and PC
+112201;Konsolenzubehör;de;Consoles and PC
+112701;Controller per console;it;Console Controller
+112801;Périphérique;fr;Pheripherals
+112801;Eingabegeräte;de;Pheripherals
+112901;Joystick;fr;Joysticks
+113101;Joysticks & Gamepads;de;Joysticks and gamepads
+113201;Tastiere;it;Keyboards
+113201;Clavier;fr;Keyboards
+113201;Tastaturen;de;Keyboards
+113301;Accessori Informatica;it;Computer Accessories
+113301;Souris;fr;Computer Accessories
+113301;Mäuse & Trackballs;de;Computer Accessories
+113501;Portatili;it;Notebooks
+113501;Ordinateur Portable;fr;Notebooks
+113501;Notebooks;de;Notebooks
+114401;Monitor;it;Monitor and Displays
+114401;Ecran moniteur;fr;Monitor and Displays
+114401;Monitore & Displays;de;Monitor and Displays
+114601;Accessori Palmari e GPS;it;PDA and GPS Accessories
+114601;PDA- & GPS-Zubehör;de;PDA and GPS Accessories
+114901;Stampanti;it;Printers
+114901;Imprimante;fr;Printers
+114901;Drucker;de;Printers
+115001;Toner;it;Printer Accessories
+115001;Accessoires pour imprimante;fr;Printer Accessories
+115101;Cartucce;it;Printer Accessories
+115201;Kit di ricarica;it;Printer Accessories
+115401;Scanner;it;Scanner
+115401;Scanner;fr;Scanner
+115401;Scanner;de;Scanner
+115701;Server;it;Print Server
+115701;Serveur d'impression;fr;Print Server
+115701;Server;de;Print Server
+115801;Masterizzatori;it;Optical Disc Drive
+115801;Laufwerke;de;Optical Disc Drive
+115901;CD/DVD vierge Disquette Zip...;fr;Optical Disc Drive
+115901;Leermedien;de;Optical Disc Drive
+116001;CD/DVD-Laufwerke;de;Optical Disc Drive
+116301;Lecteur DVD-Rom;fr;Optical Disc Drive
+116401;Lecteur de disquettes;fr;Floppy Drive
+116401;Diskettenlaufwerke;de;Floppy Drive
+116501;Hard Disk;it;Hard Disk
+116501;Disque dur;fr;Hard Disk
+116501;Festplatten;de;Hard Disk
+116701;Hard disk esterni;it;External Hard Disk
+116901;Webcam;it;Webcam
+116901;Webcam;fr;Webcam
+116901;Webcams;de;Webcam
+117001;Software;it;Software
+117001;Logiciel;fr;Software
+117001;Software;de;Software
+117901;Giochi e Giocattoli;it;Toys and Video Games
+117901;Jeux vidéo et Jouets;fr;Toys and Video Games
+117901;Spiel & Hobby;de;Toys and Video Games
+120501;Hifi Photo & Vidéo;fr;Photo and Video
+120501;Elektronik & Foto;de;Photo and Video
+120701;Hifi et Son;fr;Audio
+120801;Accessoire Son;fr;Audio accessories
+120901;Auricolari e cuffie;it;Audio accessories
+120901;Casque Audio & Micro;fr;Audio accessories
+120901;Kopfhörer;de;Audio accessories
+121001;Accessori per Autoradio;it;Audio Car Accessories
+121201;Registratori Radio e Stereo portatili;it;Radio Recorders and portable Stereo
+121301;Platine CD;fr;CD player
+121301;CD-Player;de;CD player
+121401;Componenti Audio;it;Audio Components
+121601;Amplificatori e Sintoamplificatori;it;Amplifiers and Receivers
+121601;Amplificateur;fr;Amplifiers and Receivers
+121601;Verstärker & AV-Receiver;de;Amplifiers and Receivers
+122301;Casse acustiche;it;Loudspeakers
+122301;Enceintes Home Cinéma et Hifi;fr;Loudspeakers
+122301;Lautsprecher;de;Loudspeakers
+122501;Elément Séparé;fr;Record Player
+122501;Plattenspieler;de;Record Player
+122701;Lettori MP3 e Multimediali;it;MP3 and Media Players
+122701;Lecteur MP3 / Multimédia;fr;MP3 and Media Players
+122701;MP3-Player & Multimediaplayer;de;MP3 and Media Players
+122801;Custodie per lettori musicali;it;Cases for music players
+122801;MP3-Player-Zubehör;de;MP3 Player Accessories
+122901;Tragbare Audiogeräte;de;Portable Audio
+123101;Radio;it;Radio
+123201;Impianti HiFi;it;Audio System
+123201;Chaîne Hifi;fr;Audio System
+123201;Hi-Fi-Anlagen;de;Audio System
+123301;Photo & Vidéo;fr;Photo and Video
+123401;Accessoire Image;fr;Image
+123501;Videocamere;it;Cameras
+123501;Caméscope;fr;Cameras
+123501;Camcorder;de;Cameras
+123601;Camcorderzubehör;de;Camera accessories
+124401;Fotocamere analogiche;it;Analog Cameras
+124501;Fotozubehör;de;Photo accessories
+124701;Batterie e Accessori per foto e video;it;Photo and Video Batteries and Accessories
+124901;Fotocamere digitali;it;Digital camera
+124901;Appareil Photo Numérique;fr;Digital camera
+124901;Digitalkameras;de;Digital camera
+125301;Telefonia;it;Cellphone
+125301;Téléphonie;fr;Cellphone
+125301;Handy Telefon & Fax;de;Cellphone
+125601;Fax;it;Fax
+125601;Fax;fr;Fax
+125601;Faxgeräte;de;Fax
+125801;Accessoires pour téléphone portable;fr;Mobile Phone Accessories
+125801;Handyzubehör;de;Mobile Phone Accessories
+125901;Photocopieur;fr;Photocopier
+126001;Telefoni;it;Telephones
+126001;Téléphone Fixe & VoIP;fr;Telephones
+126001;Telefone & Anrufbeantworter;de;Telephones
+126201;Erneuerbare Energien;de;Renewable energy
+126301;Batterie Photo et Vidéo;fr;Photo and Video Battery
+126701;Home Theatre;it;Home Theater Systems
+126701;Home Cinéma;fr;Home Theater Systems
+126701;Heimkinosysteme;de;Home Theater Systems
+126901;Fernbedienungen;de;Remote Controls
+127201;Videoproiettori;it;Video projector
+127201;Vidéoprojecteur;fr;Video projector
+127201;Beamer;de;Video projector
+127501;Elettronica;it;Electronics
+127501;Tv & Cinema;fr;TV and Cinema
+127601;Accessori audio/video;it;Audio and Video Accessories
+127701;Lettori DVD e DiVX;it;DVD and Blu Ray Players
+127701;Lecteur DVD et Blu Ray;fr;DVD and Blu Ray Players
+127701;DVD- & Blu-ray-Player;de;DVD and Blu Ray Players
+128001;Sexy / Erotique;fr;Sexy and Erotic
+128001;Erotik;de;Sexy and Erotic
+128101;Erotikliteratur;de;Sexy and Erotic
+128301;Lingerie & sous-vêtements sexy;fr;Lingerie and sexy underwear
+128401;Erotik-DVDs & -CDs;de;Adult DVDs
+128601;Accessoires Erotiques;fr;Sex toys
+128601;Sexspielzeug;de;Sex toys
+128701;Vini e Gastronomia;it;Eat and Drink
+128701;Alimentation boissons et tabac;fr;Eat and Drink
+128701;Essen & Trinken;de;Eat and Drink
+128801;Succhi di frutta e Bibite;it;Juices and Soft Drinks
+128801;Eau Soda et Boisson;fr;Juices and Soft Drinks
+128801;Getränke;de;Juices and Soft Drinks
+129801;Vini e Liquori;it;Alcoholic drinks
+129801;Alcool et Vin;fr;Alcoholic drinks
+129801;Alkoholische Getränke;de;Alcoholic drinks
+130401;Gastronomia;it;Food and Drinks
+130401;Alimentation et Gastronomie;fr;Food and Drinks
+130401;Lebensmittel;de;Food and Drinks
+132601;Prodotti per fumatori;it;Smoking Products
+132601;Articles pour fumeurs;fr;Smoking Products
+132601;Tabakwaren;de;Smoking Products
+132701;Diététique et Bien-être;fr;Diet and Wellness
+132801;Salute e Bellezza;it;Health and beauty
+132801;Santé - Beauté;fr;Health and beauty
+132801;Beauty & Gesundheit;de;Health and beauty
+133001;Prodotti per il Viso;it;Drugstore Products
+133001;Soin du Visage;fr;Drugstore Products
+133001;Drogerieprodukte;de;Drugstore Products
+133101;Make up;it;Makeup
+133101;Maquillage;fr;Makeup
+133101;Beauty;de;Makeup
+133201;Körperpflegezubehör;de;Personal Care Accessories
+133301;Prodotti per Viso e Corpo;it;Care body and face
+133301;Soin du corps et du visage;fr;Care body and face
+133301;Körperpflege;de;Care body and face
+133501;Profumi;it;Perfume
+133501;Parfum;fr;Perfume
+133501;Parfum;de;Perfume
+133601;Gesundheit;de;Bless you
+133801;Intimité Préservatif;fr;Condoms privacy
+133901;Produit pour l'hygiène;fr;hygiene
+133901;Hygiene;de;hygiene
+134001;Integratori;it;Vitamins and Supplements
+134001;Vitamines et Compléments;fr;Vitamins and Supplements
+134001;Sporternährung;de;Vitamins and Supplements
+134101;Medikamente;de;Drugs
+134201;Lentilles de contact et Lunettes de vue;fr;Contact Lenses and Glasses
+134201;Augenoptik;de;Contact Lenses and Glasses
+134301;Prodotti per la Casa;it;Home and Furniture
+134301;Maison et Ameublement;fr;Home and Furniture
+134301;Heimwerken & Garten;de;Home and Furniture
+134401;Casa;it;Home
+134501;Barbecue e Accessori;it;Grills and Accessories
+134501;Barbecue Plancha et Accessoires;fr;Grills and Accessories
+134501;Grillbedarf;de;Grills and Accessories
+135901;Utensili a mano;it;Hand Tools
+135901;Outillage à main;fr;Hand Tools
+135901;Handwerkzeuge;de;Hand Tools
+136101;Stufe e Caldaie;it;Stoves and Boilers
+136101;Plomberie;fr;Stoves and Boilers
+136201;Tappeti;it;Rugs and Carpet
+136201;Tapis;fr;Rugs and Carpet
+136201;Teppiche & Auslegware;de;Rugs and Carpet
+136801;Arredamento;it;Furniture
+136801;Mobilier de maison;fr;Furniture
+136801;Einrichten & Wohnen;de;Furniture
+136901;Mobili e Armadi;it;Furniture and Cabinets
+136901;Meuble de rangement;fr;Furniture and Cabinets
+136901;Regale & Schränke;de;Furniture and Cabinets
+137001;Letti e Materassi;it;Beds and Mattresses
+137001;Literie;fr;Beds and Mattresses
+137001;Betten & Matratzen;de;Beds and Mattresses
+137601;Petites fournitures de bureau;fr;Small office supplies
+137701;Arredo Giardino;it;Garden furniture
+137701;Mobilier de jardin;fr;Garden furniture
+137701;Gartenmöbel;de;Garden furniture
+137901;Poltrone e Divani;it;Sofa and Armchair
+137901;Canapé et Fauteuil;fr;Sofa and Armchair
+137901;Sofas & Sessel;de;Sofa and Armchair
+138001;Tavoli e Sedie;it;Tables and chairs
+138001;Table et Chaise;fr;Tables and chairs
+138001;Tische & Stühle;de;Tables and chairs
+138201;Illuminazione interni;it;Inside Lighting
+138201;Eclairage intérieur;fr;Inside Lighting
+138201;Innenbeleuchtung;de;Inside Lighting
+138301;Attrezzature utilizzate all'aperto;it;Outdoor Equipment
+138301;Aménagement extérieur;fr;Outdoor Equipment
+138301;Gartenbedarf;de;Outdoor Equipment
+138701;Giardinaggio;it;Gardening
+138701;Jardinage;fr;Gardening
+138701;Pflanzen & Bewässerung;de;Gardening
+139401;Haushaltswaren;de;household goods
+139801;Grandi Elettrodomestici per la cucina;it;Large appliances for the kitchen
+140001;Utensili e accessori cucina;it;Kitchen's Accessories
+140001;Accessoires et Ustensiles de cuisine;fr;Kitchen's Accessories
+140001;Küchenutensilien;de;Kitchen's Accessories
+140401;Pentole e padelle;it;Cookware
+140401;Ustensiles de cuisson;fr;Cookware
+140401;Kochgeschirr;de;Cookware
+141601;Posate e stoviglie;it;Crockery and cutlery
+141601;Vaisselle et Couverts;fr;Crockery and cutlery
+141601;Geschirr & Besteck;de;Crockery and cutlery
+141901;Biancheria per la casa;it;Household Linen
+141901;Linge de maison;fr;Household Linen
+141901;Heimtextilien;de;Household Linen
+142101;Prodotti per Animali;it;Pets Products
+142101;Produits Animaux domestiques;fr;Pets Products
+142101;Haustierbedarf;de;Pets Products
+142701;Vari Prodotti per Bambini e Neonati;it;Products for Babies and Kids
+143101;Automazione e sicurezza casa;it;Automation and Security
+143101;Sécurité et Domotique;fr;Automation and Security
+143101;Automation & Sicherheitstechnik;de;Automation and Security
+143401;Utensili elettrici;it;Power tools
+143401;Outillage électro-portatif;fr;Power tools
+143401;Elektrowerkzeuge;de;Power tools
+143501;Attrezzi da Giardino manuali;it;Garden Tools
+143501;Outillage de jardin à main;fr;Garden Tools
+143501;Gartenwerkzeug;de;Garden Tools
+144601;Elettrodomestici;it;Home appliances
+144601;Electroménager;fr;Home appliances
+144601;Küche & Haushalt;de;Home appliances
+144701;Frigoriferi e Congelatori;it;Refrigerators and Freezers
+144701;Elektro-Großgeräte;de;Refrigerators and Freezers
+144801;Climatizzatori e Condizionatori;it;Air conditioner and fan
+144801;Climatiseur et ventilateur;fr;Air conditioner and fan
+145001;Cuisinière;fr;Cook
+145001;Herde;de;herd
+145101;Lavastoviglie;it;Dishwasher
+145101;Lave-vaisselle;fr;Dishwasher
+145101;Spülmaschinen;de;Dishwasher
+145201;Asciugabiancheria;it;Dryer
+145401;Sèche-linge;fr;Dryer
+145401;Trockner;de;Dryer
+145701;Congelatori;it;Freezers
+145701;Congélateur;fr;Freezers
+145701;Gefrierschränke;de;Freezers
+145801;Frigoriferi combinati;it;Combined Refrigerators
+145801;Combiné Réfrigérateur / Congélateur;fr;Combined Refrigerators
+145801;Kühlkombinationen;de;Combined Refrigerators
+145901;Radiateur électrique;fr;Electric heater
+146001;Piani cottura;it;Cooktop
+146001;Table de cuisson;fr;Cooktop
+146001;Kochfelder;de;Cooktop
+146201;Microonde;it;Microwave
+146201;Micro-ondes;fr;Microwave
+146201;Mikrowellen;de;Microwave
+146301;Four;fr;Oven
+146301;Backöfen;de;Oven
+146401;Frigoriferi monoporta;it;Refrigerators
+146401;Réfrigérateur;fr;Refrigerators
+146401;Kühlschränke;de;Refrigerators
+146501;Aspirapolvere;it;Vacuum cleaner
+146501;Aspirateur;fr;Vacuum cleaner
+146501;Staubsauger;de;Vacuum cleaner
+146601;Lavatrici e Lavasciuga;it;Washing machines
+146601;Lave-linge;fr;Washing machines
+146601;Waschmaschinen;de;Washing machines
+146701;Accessoires électroménager;fr;appliances Accessories
+146801;Climatizzazione e Riscaldamento;it;Air Conditioning and Heating
+146801;Küchengeräte;de;kitchen appliances
+146901;Esperienze;it;Mixer
+146901;Blender Batteur Mixeur;fr;Mixer
+146901;Handrührer & Mixer;de;Mixer
+147001;Impastatrici;it;Bread maker
+147001;Machine à pain;fr;Bread maker
+147101;Macchine da caffè;it;Coffee Makers
+147101;Cafetière et Expresso;fr;Coffee Makers
+147101;Kaffee- & Espressomaschinen;de;Coffee Makers
+147201;Friggitrici;it;Fryers
+147201;Friteuse;fr;Fryers
+147201;Fritteusen;de;Fryers
+147301;Bollitori;it;Kettles
+147301;Eierkocher;de;egg cooker
+147601;Tritacarne;it;Mincer
+147701;Robot da cucina;it;Food Processors
+147701;Robot Ménager;fr;Food Processors
+147701;Küchenmaschinen;de;Food Processors
+147801;Ferri da stiro;it;Eletric Iron
+147801;Centrale vapeur et Fer à repasser;fr;Eletric Iron
+147801;Bügeleisen;de;Eletric Iron
+147901;Presse-agrumes/ Centrifugeuse;fr;Juicers
+147901;Saftpressen;de;Juicers
+148001;Affettatrici;it;Slicers
+148001;Schneidemaschinen;de;cutting machines
+148101;Cuit vapeur Cuiseur Mijoteur;fr;Steamed Slow cookers
+148301;Tostapane;it;Toaster
+148301;Grille-pain & Toaster;fr;Toaster
+148301;Toaster;de;Toaster
+148401;Libri Dvd e Video;it;Movie
+148401;Film;fr;Movie
+149201;Dvd Blu-Ray;it;DVD Blu-Ray
+149201;DVD Blu-Ray;fr;Blu-Ray DVD
+149201;DVD & Blu-ray Filme;de;DVD & Blu-ray Movies
+150401;Musica;it;Music
+150401;Livre Musique Film;fr;Film Music Book
+150501;CD e Strumenti Musicali;it;CD's and Musical Instruments
+150701;CD;it;CD
+150701;CD;fr;CD
+150701;Musik-CDs;de;Music CDs
+150801;Strumenti Amplificazione ed Effetti;it;Amplification Instruments and Effects
+152401;Instruments de musique;fr;Musical instruments
+152401;Musikinstrumente;de;Musical instruments
+152501;Partition de Musique;fr;Music sheet
+154001;Prodotti per Scuola e Ufficio;it;for School and Office Products
+154001;Bürobedarf;de;office supplies
+154201;Macchine per ufficio;it;Office machinery
+154701;Accessori per ufficio;it;Accessories for office
+158801;Mariage;fr;Wedding
+159001;Finance immobilier et vie pratique;fr;Finance and real practical life
+161701;Servizi Immobiliari;it;Real Estate Services
+163601;Sport e Tempo Libero;it;Sport and free time
+163601;Sport & Loisirs;fr;Sports & Leisure
+163601;Sport & Fitness;de;Sports & Fitness
+163801;Sport di squadra;it;Team sports
+163801;Sports collectifs;fr;Team sports
+163801;Mannschaftssport;de;team Sports
+164401;Sport all'aperto;it;outdoor Sports
+164401;Sports nature;fr;Nature Sports
+164401;Camping & Outdoor;de;Camping & Outdoor
+164501;Outdoor-Ausrüstung;de;Outdoor equipment
+164701;Abbigliamento e Calzature Sportive;it;Sports Clothing and Footwear
+164701;Sportbekleidung;de;Sportswear
+164801;Ciclismo;it;Cycling
+164801;Radsport;de;cycling
+164901;Caccia e Pesca;it;Hunting and Fishing
+164901;Chasse et Pêche;fr;Hunting and fishing
+164901;Angelsport & Jagdsport;de;Fishing & Hunting
+165101;Fitness atletica e sport indoor;it;Fitness athletics and indoor sports
+165101;Athlétisme et Sports en salle;fr;And Athletics Indoor Sports
+165101;Fitness & Leichtathletik;de;Fitness & Athletics
+165201;Golf;it;Golf
+165201;Golf;fr;Golf
+165201;Golf;de;golf
+165701;Sport con racchette;it;Racquet Sports
+165701;Sports de raquette;fr;Racquet Sports
+165701;Racketsport;de;racquet Sports
+166401;In line;it;In line
+166401;Sports urbains et Sports de glace;fr;urban and ice sports
+166401;Skaten;de;skating
+166501;Sport acquatici;it;Watersports
+166501;Sports Nautiques;fr;Nautical sports
+166501;Wassersport;de;water sports
+167401;Billetterie & Sortie;fr;Ticketing & Output
+168001;Giocattoli e Peluche;it;Toys and Plush
+168001;Jouets;fr;Toys
+168001;Spielzeug;de;toy
+168301;Giochi per Bambini;it;Games for children
+168301;Jouets bébé;fr;baby Toys
+168301;Babyspielzeug;de;Baby Toys
+169901;Viaggi e Vacanze;it;Travel and Holidays
+169901;Voyages;fr;traveling
+169901;Reisen & Flüge;de;Travel & Flights
+170101;Valigeria;it;suitcases
+170101;Bagages;fr;baggage
+170101;Koffer & Reisegepäck;de;Cases & luggage
+170201;Location de vacances;fr;Vacation location
+170701;Alberghi e Hotel;it;Hotels and Hotel
+170701;Hôtel;fr;Hotel
+170701;Hotels;de;hotels
+171101;Vacanze;it;Vacation
+171401;Croisière;fr;Cruise
+171601;Ultimo Minuto;it;Last minute
+171601;Dernière Minute;fr;Last minute
+172201;Biglietti Aerei;it;Airline tickets
+172201;Billet d'Avion;fr;Cheap Flights
+172201;Flüge;de;flights
+172301;Noleggio Auto;it;Car rent
+172301;Location de voiture;fr;Car rental
+172301;Mietwagen;de;rental car
+172601;Auto et Moto;fr;Cars and Motorcycles
+172601;Auto & Motor;de;Car & Motor
+173001;Auto;fr;car
+173101;Autoradio;it;Radio
+173101;Autoradio et Vidéo embarquée;fr;Car Entertainment
+173101;Car Hi-Fi;de;Car Hi-Fi
+173701;Motorräder Roller & Quads;de;Motorcycles Scooters & Quads
+173801;Accessoires Moto;fr;Motorcycle
+173801;Motorradzubehör;de;motorcycle Accessories
+174201;Sport invernali;it;Winter sports
+174201;Sports d'hiver;fr;Winter sports
+174201;Wintersport;de;winter sports
+174301;Accessori Console;it;Console Accessories
+100003613;Graveur DVD et CD;fr;DVD and CD Burners
+100005613;Consumabili per la Stampa;it;Consumables for Printing
+100005613;Encre Cartouche Toner;fr;Ink Toner
+100005613;Tinte & Toner;de;Ink Toner Cartridges
+100005813;Gruppi di continuità;it;Uninterruptible
+100005813;Onduleur;fr;Inverter
+100005813;USV;de;UPS
+100006813;Téléphone portable avec abonnement;fr;Mobile phone subscription
+100006813;Mobil;de;Mobile
+100007413;Idee Regalo;it;Gift ideas
+100007413;Cadeaux & Fleurs;fr;Gifts & Flowers
+100007513;Fleurs;fr;flowers
+100007613;Oggetti per la casa e accessori;it;Household goods and accessories
+100007613;Décoration;fr;Decoration
+100007613;Dekoration;de;decoration
+100007713;Tablette Graphique;fr;Graphic tablet
+100007713;Grafiktabletts;de;graphics tablets
+100008013;Decoder;it;Decoder
+100008013;Décodeur TNT et Satellite;fr;DVB-T and Satellite
+100008013;SAT-Receiver & Set-Top-Boxen;de;Satellite receivers & Set-Top Boxes
+100008213;Accessoires pour ordinateur portable;fr;Laptop Accessories
+100008213;Notebookzubehör;de;Notebook Accessories
+100010113;Home Studio / Equipement DJ;fr;Home Studio / DJ Equipment
+100010713;Téléphonie mobile;fr;Mobile telephony
+100010713;Handys mit Vertrag;de;Contract Mobile Phones
+100012513;Week-end et escapade;fr;Weekend getaway
+100012613;Moto Neuve et d'Occasion;fr;New & Used Motorcycles
+100014113;Faire-part et Cartes de voeux;fr;Invitations and Greeting Cards
+100014113;Geschenke Gutscheine & Tickets;de;Gifts Vouchers & Tickets
+100014313;Altri Sport;it;Other sports
+100014313;Autres sports;fr;other sports
+100014313;Sportartikel;de;sporting Goods
+100014413;Frigo cantina;it;Fridge cellar
+100014413;Cave à vin;fr;Wine cellar
+100014413;Weinschränke;de;wine cabinets
+100014513;Nettoyeurs Vapeur;fr;Steam Cleaners
+100014713;Centrifughe;it;Centrifuges
+100014713;Raclette Crêpière Pierre à griller;fr;Raclette grill Pancake Pierre
+100014713;Fondue & Raclette;de;Fondue & Raclette
+100014813;Videogiochi e Accessori;it;Video Game & Accessories
+100014813;Loisirs;fr;Hobbies
+100015413;Occhiali 3D;it;3D glasses
+100016013;Téléphonie fixe;fr;Home phone
+100016013;Festnetz;de;landline
+100017113;Hifi e Componenti;it;Home Entertainment
+100020213;Cellulari e Palmari;it;Mobile Phone Handsets
+100020213;Téléphone portable sans abonnement;fr;Mobile Phone Handsets
+100020213;Handys ohne Vertrag;de;Sim Free Phones
+100020413;Vacances Ski;fr;Ski Vacations
+100020613;Séjour;fr;Stay
+100024813;Ricetrasmettitori e accessori;it;Transceivers and accessories
+100028613;Matériel Médical;fr;Medical material
+100028913;Premiers Soins;fr;First aid
+100040013;Cura della Persona;it;Personal care
+100040213;Automobili e Moto;it;Cars and Motorcycles
+100042013;Accessori Telefonia;it;Phone Accessories
+100043113;Lecteur de bande magnétique;fr;Magnetic Stripe Reader
+100043413;Streamer;de;Streamer
+100046513;Produit Solaire;fr;Solar product
+100046613;Kosmetik;de;cosmetics
+100048013;DVD Erotiques;fr;DVD Erotic
+100052013;Abbigliamento Premaman;it;Maternity Clothing
+100052013;Vêtement Femme enceinte;fr;Clothing Pregnant
+100052013;Umstandsmode;de;Maternity
+100052113;Téléphone portable avec carte prépayée;fr;mobile phone with prepaid card
+100052213;Multifunzione;it;Multifunction
+100052213;Imprimante multifonctions;fr;multifunction printer
+100052213;All-in-One Drucker;de;All-in-One Printer
+100060013;Hi-Fi & Audio;de;HiFi Audio
+100066113;Controller;it;Controller
+100066113;Batterie Informatique;fr;Computer battery
+100066213;Modem e router wireless;it;Modem and wireless router
+100066213;Hub Switch et Routeur;fr;Hub Switch and Router
+100066313;Hub e Switch;it;Hub and Switch
+100066413;Adattatori e Lettori Memory Card;it;Adapter and Memory Card Readers
+100066413;Alimentation PC;fr;PC power supply
+100066413;Netzteile;de;power Supplies
+100066613;Schede acquisizione e TV;it;TV Cards
+100066613;Carte d'acquisition TV / Vidéo;fr;grabber TV / Video
+100066613;TV-Karten;de;TV cards
+100066713;Compact Flash;it;Compact Flash
+100066713;Accessoires pour boîtier;fr;Accessories box
+100066813;Carte Contrôleur;fr;card Controller
+100066813;Controller;de;controller
+100082113;Fanartikel;de;Memorabilia
+100084013;Networking;it;Networking
+100084113;Componenti Hardware;it;Hardware Components
+100084313;Periferiche;it;Peripherals
+100084413;Telefonia Fissa;it;Fixed Telephony
+100084613;Telefonia Mobile;it;Mobile phone
+100085613;Accessoires multimédia auto;fr;Multimedia Auto Accessories
+100086213;Cannocchiali e Binocoli;it;Telescopes and Binoculars
+100091013;Eventi e Ricorrenze;it;Events and Celebrations
+100091013;Cadeaux pour une occasion;fr;Gifts for an opportunity
+100091613;Divers;fr;Various
+100091613;Fundgrube;de;treasure trove
+100091913;Relaxation & Parapharmacie;fr;Relaxation & Cosmetics
+100093413;Rentrée;fr;return
+100095913;Musique;fr;Music
+100101713;Camping et Mobil Home;fr;Camping and Mobile Home
+100101913;Séjour en France;fr;Stay in France
+100105013;Filtri e lenti;it;Filters and lenses
+100116213;Schede di rete;it;Network Adapters
+100117613;Nastri;it;Tapes
+100118313;Car Stereo;it;Car Stereo
+100118413;Autoradio: Sistemi multimediali;it;Radio: Multimedia Systems
+100119813;Cornici e album foto;it;Frames and photo albums
+100119813;Cadre et album photo;fr;Frame and photo albums
+100119813;Bilderrahmen & Alben;de;Picture Frames & Albums
+100123913;Coffret Cadeau;fr;Gift box
+100126013;Speaker e Docking station per lettori musicali;it;Speaker and docking station for music players
+100137713;Code promo;fr;Promo code
+100138013;Cadeau original;fr;original gift
+100146713;Papier pour impression;fr;Printing paper
+100146713;Papier & Folien;de;Paper & films
+100158013;Carte Mémoire;fr;Memory card
+100158013;Speicherkarten;de;memory cards
+100216323;Boîtier PC;fr;PC case
+100216323;Gehäuse;de;casing
+100222423;Verbrauchsmaterial;de;consumables
+100222623;Esperienze e Brevi Vacanze;it;Experiences and Short Holidays
+100222623;Escapade et Coffret cadeau;fr;Getaway Gift Box
+100224023;Réseau;fr;Network
+100224023;Netzwerke;de;networks
+100229323;Sport;de;Sports
+100229923;Pulizia Stiro e Cucito;it;Cleaning Ironing and Sewing
+100232023;Materiali da costruzione;it;Building materials
+100232023;Matériaux;fr;Materials
+100232023;Baustoffe;de;building materials
+100232223;Chauffage;fr;Heating
+100232823;Prodotti per l'Infanzia;it;Products for Children
+100233223;Ferramenta;it;Hardware
+100233223;Quincaillerie;fr;Hardware store
+100233223;Eisenwaren;de;ironmongery
+100233523;Altri Attrezzi per Bricolage e Fai da te;it;Other Tools for DIY and DIY
+100233623;Traitement de l'eau & de l'air;fr;Water treatment & air
+100238623;Accessoires et clés bluetooth;fr;Accessories and Bluetooth key
+100239223;Microphone;fr;Microphone
+100239223;Mikrofone;de;Microphones
+100239423;Tapis de souris;fr;Mousepad
+100239623;Volant;fr;Flying
+100239623;PC-Lenkräder;de;PC steering wheels
+100239723;Accessoires pour écran;fr;Accessories display
+100242023;Carta;it;Paper
+100248023;Magliette e T-shirts Donna;it;Shirts and T-shirts Women
+100248123;Jumelle & Télescope;fr;Binoculars & Telescope
+100248223;Microfoni;it;Microphones
+100248223;Micro;fr;Microphone
+100248323;Registratori vocali;it;voice Recorders
+100248323;Dictaphone;fr;dictaphone
+100248423;Pantaloni Donna;it;Women's Pants
+100248423;Kleidung;de;clothing
+100250023;Lenti a contatto;it;Contact lenses
+100250023;Kontaktlinsen & Zubehör;de;Lenses & Accessories
+100260023;Clé USB;fr;USB key
+100260023;USB-Sticks;de;USB sticks
+100270123;Sex Gags;de;Sex gags
+100270223;Kondome;de;condoms
+100270423;Sexy Mode & Dessous;de;Sexy Fashion & Lingerie
+100270523;Fetisch;de;fetish
+100274623;Accessori Auto e Moto;it;Motoring Accessories
+100278823;Navigatori GPS;it;GPS navigators
+100278823;GPS;fr;GPS
+100278823;GPS;de;GPS
+100278923;Baladeur CD;fr;Portable CD player
+100278923;Tragbare CD-Player;de;Portable CD Player
+100282023;Lecteur de Carte Mémoire;fr;Memory Card Reader
+100282023;Kartenleser;de;card reader
+100282123;Tablet e eBook reader;it;Tablet and eBook reader
+100282123;Tablette multimédia;fr;media tablets
+100282123;Tablets & E-Book-Reader;de;Tablets & E-Book Reader
+100282623;Sveglie e stazioni meteo;it;Alarm clocks and weather stations
+100282623;Réveil et Station météo;fr;Clock and Weather Station
+100282623;Radiowecker & Wetterstationen;de;Radio Wake Up Timer
+100282723;Stereo portatili;it;Stereo portable
+100282723;Radio portable;fr;Portable radio
+100282723;Tragbare Radios;de;portable radios
+100282823;Cucine;it;Kitchens
+100282923;Croque-Monsieur & Gaufrier;fr;Croque Monsieur & Waffle
+100283023;Hotte Aspirante;fr;Hoods hood
+100283023;Dunstabzugshauben;de;Hoods
+100283323;Elektrogrills;de;electric grills
+100288323;Forni;it;Ovens
+100288423;Grattugie elettriche;it;Shredders
+100288923;Piccoli Elettrodomestici per la cucina;it;Small Appliances for the kitchen
+100289023;Sbattitori;it;Beaters
+100289123;Spremiagrumi;it;Juicer
+100289123;Autre petit électromenager de cuisine;fr;Other small kitchen électromenager
+100289323;Bistecchiere e Griglie;it;Grills and Grids
+100289423;Aerosol;it;Aerosol
+100289623;Asciugacapelli;it;Hairdryer
+100289923;Personal Care;it;Personal Care
+100290223;Accessori Personal Care;it;Accessories Personal Care
+100290623;Accessoires Beauté;fr;Beauty Accessories
+100291623;Salute;it;Health
+100291623;Santé;fr;Health
+100291623;Gesundheit & Wellness;de;health & Wellness
+100291723;Prodotti per i Capelli;it;for Hair Products
+100291723;Soin Capillaire;fr;Hair care
+100291823;Mémoire PC;fr;PC memory
+100291823;Arbeitsspeicher;de;random access memory
+100292823;Pavé Numérique;fr;Numeric keypad
+100293223;Eingabegerätezubehör;de;Input Accessories
+100293623;Courant porteur (CPL);fr;Powerline communication (PLC)
+100294523;Tuning et Watercooling;fr;Tuning and watercooling
+100294523;Case Modding;de;Case Modding
+100294723;Borse per foto e video;it;for photo and video bags
+100295023;Flash;it;Flash
+100298123;Altri prodotti (comprende tutte le offerte senza codice EAN);it;Other (includes all offers no EAN code)
+100298223;Produits dérivés;fr;derivatives
+100299123;Chauffage au Poêle;fr;Heating stove
+100299223;Orologi per la casa;it;Watches Home
+100299223;Horloge;fr;Clock
+100299223;Wanduhren;de;wall Clocks
+100299723;Regali di Natale;it;Christmas Gifts
+100299723;Noël;fr;Xmas
+100299923;Regali per la Festa del Papà;it;Gifts for Father's Day
+100299923;Fête des pères;fr;Fathers Day
+100300023;Fête des mères;fr;Mothers' Day
+100300223;Saint Valentin;fr;Valentine's Day
+100302923;Giochi all'aperto;it;outdoor games
+100302923;Jeux de plein air;fr;Outdoor games
+100302923;Spielzeug für Draußen;de;Toys for outdoors
+100303423;Mode et accessoires enfant;fr;Fashion and accessories Children
+100303723;Antenne et accessoires réception TV;fr;Antenna and accessories TV reception
+100303923;Parabole LNB Cam e Smartcard;it;Parables LNB Cam and Smartcard
+100304123;Accessoires GPS;fr;GPS Accessories
+100304223;Obiettivi;it;Goals
+100304323;DVD recorder;it;DVD recorder
+100304323;Lecteur enregistreur DVD;fr;DVD Recorders
+100304423;Videosorveglianza;it;Video surveillance
+100305023;Gadget;it;Gadget
+100305123;Giochi e Divertimenti;it;Games and Entertainment
+100305123;Jeux et Loisirs;fr;Games and Entertainment
+100305223;Moda e Stile;it;Fashion and Style
+100305223;Mode et Glamour;fr;Fashion and Glamor
+100305323;Complementi per la Casa;it;for the House Complements
+100305323;Maison et Décoration;fr;Home and Decoration
+100306023;Neonati e Bambini;it;Babies and Children
+100306023;Cadeaux Bébé et Enfant;fr;Baby & Child Gifts
+100306123;Prodotti Elettronici Trendy;it;Electronic Products Trendy
+100306123;High-tech tendance;fr;High-tech trend
+100306223;Beauté et Bien-être;fr;Beauty and wellness
+100306423;Enologia;it;winemaking
+100306423;Gastronomie et Art de vivre;fr;Gastronomy and Lifestyle
+100306523;Cadeau coquin;fr;gift rascal
+100310423;Diktiergeräte;de;Dictaphones
+100310623;Heimkino;de;Home theater
+100310723;Fernseh- & Audiozubehör;de;TV & Audio Accessories
+100311523;Tuner;de;tuner
+100311823;Televisori;it;Televisions
+100311823;Téléviseur;fr;TV
+100311823;LCD- LED- & 3D-Fernseher;de;LCD LED & 3D TVs
+100314123;Haarpflege;de;hair care
+100314223;Chauffage d'appoint;fr;Auxiliary heating
+100316323;Borse e custodie per portatili;it;Bags and cases for laptops
+100316423;Druckerzubehör;de;printer Accessories
+100316523;CD e DVD vergini;it;CDs and blank DVDs
+100316723;Produits d'entretien informatique;fr;Products of computer maintenance
+100317123;Gonne;it;Skirts
+100317223;Abiti Donna;it;Dresses Woman
+100317323;Occhiali da sole;it;Sun glasses
+100317323;Lunettes de Soleil;fr;Sunglasses
+100317323;Sonnenbrillen;de;Sunglasses
+100317423;Camicie Donna;it;Women's Shirts
+100317623;Mouse;it;Mouse
+100318523;Memory Stick;it;Memory stick
+100322323;Passeggini e Carrozzine;it;Strollers and Prams
+100322923;Lavage et Nettoyage;fr;Washing and Cleaning
+100322923;Reinigungsgeräte & Zubehör;de;Cleaning Equipment & Accessories
+100323023;Froid et Conservation;fr;Cold and Conservation
+100323023;Kühlen & Gefrieren;de;Refrigeration & Freezing
+100323123;Chauffage et climatisation;fr;Heating and air conditioning
+100323123;Heizungen & Klimageräte;de;Heaters & Air Conditioners
+100323223;Cuisson;fr;baking
+100323223;Kochen & Backen;de;Cooking baking
+100323323;Accessori per Elettrodomestici;it;Accessories for Appliances
+100324923;Petit Electroménager;fr;Small appliance
+100325323;Moto et 2 Roues;fr;Motorcycle and 2 Wheels
+100325423;Services Auto et Moto;fr;Auto and Moto Services
+100325523;Fernsehen;de;TV
+100325623;Foto & Video;de;Photo & Video
+100326223;Ordinateurs;fr;computers
+100326223;Computer;de;computer
+100326323;Stockage;fr;Storage
+100326323;Speicher;de;Storage
+100326423;Logiciels et Services informatiques;fr;Software and Services
+100326523;Peripherie;de;periphery
+100327423;Vie pratique;fr;Practical life
+100327623;Profumeria;it;Perfumery
+100327623;Cosmétique et Parfum;fr;Cosmetics and Perfume
+100327723;Appareil santé beauté;fr;Device health beauty
+100327723;Bad-Elektrogeräte;de;Bad electrical appliances
+100327823;Regali Personalizzati;it;Personalized Gifts
+100327823;Gadgets et Cadeaux personnalisés;fr;Custom Gadgets and Gifts
+100327923;Videospiele & Konsolen;de;Video Games & Consoles
+100330223;Karten;de;cards
+100330323;Multimedia;de;multimedia
+100330523;Macchine per il pane;it;Bread Makers
+100330623;Gehäuse & Netzteile;de;Cases & Power Supplies
+100331323;Telefonzubehör;de;phone Accessories
+100331423;Cappotti e Giacconi Donna;it;Coats and Jackets Woman
+100331523;Giacche Donna;it;Women Jackets
+100331823;Cappotti e Giacconi Uomo;it;Coats and Jackets Man
+100332023;Pantaloni Uomo;it;Men's Pants
+100332123;Magliette e T-shirts Uomo;it;Shirts and T-shirts Man
+100332223;Abbigliamento Sportivo Donna;it;Sportswear Women
+100332223;Vêtement de sport Femme;fr;Sportswear Women
+100332223;Sportbekleidung Damen;de;Sportswear Women
+100332323;Abbigliamento Sportivo Uomo;it;Sportswear Man
+100332323;Vêtement de sport Homme;fr;Sportswear Man
+100332323;Sportbekleidung Herren;de;Sportswear Men
+100332423;Costumi da bagno Donna;it;Bath Woman Costume
+100332423;Maillot de bain Femme;fr;Women swimsuit
+100332423;Bademode Damen;de;Swimwear Women
+100332523;Costumi da bagno Uomo;it;Swimwear man
+100332523;Maillot de bain Homme;fr;Man Swimsuit
+100332523;Bademode Herren;de;Swimwear Men
+100332823;Machine à coudre;fr;Sewing machine
+100333823;Pen Drive;it;Pen Drive
+100334223;Borse e borsette;it;Bags and handbags
+100334223;Sacs;fr;Bags
+100334223;Taschen;de;Bags
+100334923;Puériculture et Maternité;fr;Nursery and Maternity
+100338523;Secure Digital;it;Secure Digital
+100340123;Fondue & Wok;fr;Fondue & Wok
+100340223;Point d'accès pour réseaux sans fil;fr;Access point for wireless network
+100340223;WLAN;de;WIRELESS INTERNET ACCESS
+100340323;Antenne Wifi;fr;WiFi antenna
+100340423;Commutateur KVM;fr;KVM switch
+100340423;KVM-Switches;de;KVM Switches
+100342023;Bilance da cucina;it;Kitchen Scales
+100342023;Balance de cuisine;fr;Kitchen scale
+100342923;DJ-Equipment;de;DJ Equipment
+100343023;Frullatori;it;Blenders
+100343223;Supporti di Memoria;it;Memory Media
+100344123;Camicie Uomo;it;Men's Shirts
+100344223;Giacche Uomo;it;Jackets Men
+100344423;Moda Donna;it;Women's Fashion
+100344523;Maglieria Uomo;it;Knitwear Men
+100345723;Erotischer Schmuck;de;Erotic jewelery
+100345823;Sexdrogerie;de;Sexdrogerie
+100345923;Beamerzubehör;de;projector accessories
+100346123;Weitere Kategorien;de;More categories
+100346323;Netzwerkkomponenten;de;Network components
+100354123;Voiture Neuve et d'Occasion;fr;New & Used Cars
+100354123;Neuwagen & Gebrauchtwagen;de;New & Used Cars
+100356623;Decorazioni da Giardino;it;Garden Decorations
+100356623;Décoration de jardin;fr;Garden decoration
+100356623;Gartendekoration;de;garden decoration
+100357123;Matériaux et Equipement de la maison;fr;Materials and home equipment
+100357523;Hobby e Fai da te;it;Hobbies and DIY
+100358023;Sèche-Serviettes;fr;Heated Towel
+100358623;Quadri e poster;it;Paintings and posters
+100358623;Tableau et Poster;fr;Table and Poster
+100358623;Poster & Kunstdrucke;de;Posters & Prints
+100360623;Prodotti per la scuola;it;Products for school
+100360623;Schulausstattung;de;school equipment
+100361223;Musizieren;de;Making music
+100361423;Noten;de;grades
+100363523;Thalasso & Spa;fr;Thalasso & Spa
+100364123;Voyages de luxe;fr;Luxury travel
+100364723;Accessoires Schmuck & Uhren;de;Accessories Jewelry & Watches
+100367723;Elektrorasierer & Haarschneider;de;Electric shavers & hair trimmer
+100371523;Tagliaerba;it;Lawn mower
+100371523;Tondeuse à gazon;fr;Lawn mower
+100371523;Rasenmäher;de;mowing machine
+100372023;Autoteile & Zubehör;de;Auto Parts & Accessories
+100374123;Schermi per videoproiezione;it;Screens for video projection
+100374123;Ecran et Accessoires Vidéoprojecteur;fr;Display and Projector Accessories
+100376523;Lavelli e Miscelatori Cucina;it;Kitchen Sinks & Mixers
+100376523;Equipement de cuisine;fr;Kitchen equipment
+100376523;Küchenmöbel;de;kitchen furniture
+100384023;Pneumatici Auto;it;Car Tires
+100384023;Pneus;fr;tires
+100384023;Reifen & Felgen;de;Tires rim
+100389523;Biancheria da letto;it;Bedding
+100389523;Linge de lit;fr;Bedding
+100389523;Bettwäsche;de;bed linen
+100392423;Attrezzi da Giardino elettrici;it;Garden power tools
+100392423;Outillage de jardin motorisé;fr;Outdoor Power Tools
+100392423;Gartenmaschinen;de;garden machinery
+100392523;Orologi;it;Watches
+100392523;Montre;fr;Show
+100392523;Armbanduhren;de;wristwatches
+100392923;Cireuse;fr;waxy
+100393223;Serveur;fr;Server
+100396123;Accessori per Lettori MP3;it;MP3 Player Accessories
+100402023;Soldes;fr;Sales
+100420123;Coppa del Mondo FIFA 2014;it;FIFA World Cup 2014
+100420123;Coupe du monde de la FIFA;fr;World Cup
+100424223;Inaugurazione di una Casa;it;Inauguration of a House
+100424423;Bimbo in arrivo;it;Bimbo coming
+100424623;Regali di Compleanno;it;Birthday Gifts
+100424723;Tutti a scuola;it;Everyone at school
+100425023;Saldi;it;Sale
+100425123;Regali di Matrimonio;it;Wedding Gifts
+100426223;Car Hi-Fi Zubehör;de;Car Stereo Accessories
+100434023;Musikinstrumentenzubehör;de;Musical instrument accessories
+100438023;Ferienhäuser & Ferienwohnungen;de;Vacation Rentals
+100440723;Specchi;it;Mirrors
+100440723;Miroir;fr;Mirror
+100440723;Spiegel;de;mirrors
+100441023;Tende e tendaggi;it;Curtains and blinds
+100441023;Rideaux et Voilages;fr;Window Curtains
+100441023;Gardinen & Vorhänge;de;Curtains & Blinds
+100444023;Cornici digitali;it;digital Picture Frames
+100444023;Cadre photo numérique;fr;Digital Photo Frame
+100444023;Digitale Bilderrahmen;de;Digital Picture Frames
+100448023;Vol + Hôtel;fr;Flight + Hotel
+100450123;Bébé et Enfant;fr;Baby & Child
+100450123;Baby & Kleinkind;de;Babies & Toddlers
+100450223;Chaise haute et réhausseur;fr;Highchairs and booster
+100450223;Kinderwagen;de;stroller
+100450323;Poussette et landau;fr;Stroller and pram
+100450423;Seggiolini auto;it;car seats
+100450423;Siège auto;fr;Car seat
+100450523;Sucette;fr;Lollipop
+100450623;Seggioloni e Fasciatoi;it;High chairs and baby changers
+100450623;Porte bébé;fr;Baby carrier
+100450723;Vaisselle et couverts bébé;fr;Baby Tableware
+100450823;Pot et réducteur WC;fr;Pot and reducing WC
+100450823;Babysicherheit;de;Baby safety
+100450923;Sécurité enfant;fr;child safety
+100451023;Babyphone;fr;Baby Monitor
+100451123;Allaitement;fr;Feeding with milk
+100451223;Baignoire et accessoires de bain;fr;Bath and bathroom accessories
+100462723;Piscine e Spa;it;Pools and Spas
+100462723;Piscine et Spa;fr;Pool and Spa
+100462723;Swimmingpools & Zubehör;de;Swimming Pools & Accessories
+100466023;Girelli;it;Girelli
+100471123;Accessoires Mode;fr;Fashion Accessories
+100471423;Intrattenimento;it;Entertainment
+100471423;Entertainment;de;entertainment
+100472023;Kindersitze;de;Child seats
+100477023;Occhiali da vista;it;Glasses
+100477023;Brillen;de;glasses
+100480923;Accessori;it;Accessories
+100483023;Scarpe per Bambini;it;Kids Shoes
+100483023;Chaussures Enfant;fr;Child Shoes
+100483023;Kinderschuhe;de;children's shoes
+100484623;Maschere e Costumi;it;Masks and Costumes
+100484623;Déguisements et Accessoires de fête;fr;Costumes and Party Supplies
+100484623;Karneval & Fasching;de;Carnival
+100492023;Regali per San Valentino;it;Gifts for Valentine's Day
+100492023;Fête des grands mères;fr;Day grandmothers
+100492123;Regali per la Festa della Mamma;it;Gifts for Mother's Day
+100496023;Macchine da cucire;it;Sewing machines
+100496023;Nähmaschinen;de;sewing machines
+100498523;Media Player;it;Media Player
+100498923;Altri elettrodomestici;it;Other appliances
+100498923;Haushalt;de;household
+100506023;Illuminazione;it;Lighting
+100508723;Mobilier de puériculture;fr;nursery furniture
+100508823;Biberon tétine et accessoires;fr;Bottle nipple and accessories
+100508823;Füttern & Stillen;de;Feeding & Nursing
+100508923;Babypflege & Gesundheit;de;Baby Care & Health
+100512823;Zahnpflege;de;dental care
+100513023;Unterwegs;de;Traveling
+100513123;Chauffe biberon et stérilisateur;fr;Bottle warmer and sterilizer
+100513123;Zuhause;de;At home
+100530323;Vari Benessere;it;Haircare
+100532023;Prodotti per il Corpo;it;Body Beauty Products
+100532023;Soin du Corps;fr;Body care
+100540023;Couches et accessoires de change;fr;Layers and changing accessories
+100544023;Biciclette;it;Bicycles
+100544023;Vélo;fr;Bike
+100544023;Fahrräder;de;Cycles
+100544223;Accessori per ciclismo;it;Cycling Accessories
+100544223;Accessoires vélo;fr;bike Accessories
+100544223;Fahrradteile & Fahrradzubehör;de;Bicycle Parts & Accessories Bicycle
+100563013;Solarenergie;de;solar power
+100564713;Pulizia della Casa;it;Cleaning the House
+100564713;Droguerie;fr;hardware store
+100564713;Drogerie;de;drugstore
+100564913;Scarpe Sportive Donna;it;Sports Shoes
+100564913;Chaussures de sport Femme;fr;Sports Shoes
+100564913;Sportschuhe Damen;de;Sport Shoes Women
+100565013;Scarpe Sportive Uomo;it;Sports Shoes
+100565013;Chaussures de sport Homme;fr;Sports Shoes
+100565013;Sportschuhe Herren;de;Sports Shoes Men
+100565113;Scarpe Sportive per Bambini;it;Sneakers for Kids
+100565113;Chaussures de sport Enfant;fr;Sneakers Child
+100565113;Sportschuhe Kinder;de;Sports Shoes Kids
+100565213;Materiale elettrico e componenti elettronici;it;Electrical equipment and electronic components
+100565213;Electricité;fr;electricity
+100565213;Elektrotechnik;de;Electrical engineering
+100566113;Attrezzature per la ristorazione;it;Catering equipment
+100566213;Antinfortunistica e Abbigliamento da Lavoro;it;Safety and Workwear
+100566213;Equipement de travail et de protection;fr;Working and protective equipment
+100566213;Arbeitskleidung & Arbeitsschutz;de;Workwear & Safety
+100566313;Arredo Bagno;it;Bath Accessories
+100566313;Mobilier de salle de bain;fr;Bathroom Furniture
+100566313;Badmöbel;de;Bathroom furniture
+100567413;Omogeneizzati e alimentazione bambini;it;Homogenized and feeding children
+100567413;Alimentation bébé;fr;baby Food
+100567413;Babynahrung;de;baby food
+100567513;Lampadine;it;Bulbs
+100567513;Ampoule;fr;Ampule
+100567513;Leuchtmittel;de;Lamp
+100567613;Illuminazione da esterno;it;Outdoor Lighting
+100567613;Eclairage extérieur;fr;Exterior lighting
+100567613;Außenleuchten;de;outdoor lighting
+100567813;Sanitari e Accessori Bagno;it;Sanitaryware and Bathroom Accessories
+100567813;Equipement de salle de bain;fr;Bathroom Equipment
+100567813;Badkeramik & Badzubehör;de;Bathroom ceramics and bath accessories
+100568013;Zaini;it;Backpacks
+100568013;Sac à dos;fr;Backpack
+100568013;Rucksäcke;de;Backpacks
+100570713;Smartwatch;it;Smartwatch
+100570713;Montre connectée;fr;Watch connected
+100570713;Smartwatches;de;Smart Watches
+100572513;Abbigliamento Sportivo per Bambini;it;Sportswear for Children
+100572513;Vêtement de sport Enfant;fr;Sportswear Children
+100572513;Sportbekleidung Kinder;de;Sportswear Children

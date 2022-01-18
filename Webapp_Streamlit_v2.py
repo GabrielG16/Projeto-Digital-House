@@ -27,8 +27,8 @@ sparse = pd.read_csv(origin_path+path_sparse, index_col = 0)
 path_clicks_de = '/.csv/clicks_de.csv'
 clicks_de = pd.read_csv(origin_path+path_clicks_de)
 
-path_category = '/.txt/category.txt'
-category = pd.read_csv(origin_path+path_category)
+path_category = '/.csv/translations.csv'
+category = pd.read_csv(origin_path+path_category, sep = ';')
 
 
 
@@ -158,7 +158,7 @@ def main():
 		results = ''
 
 		if st.button('Generate'):
-			
+
 			st.pyplot(user_graph(df, category, user_id))
 
 
