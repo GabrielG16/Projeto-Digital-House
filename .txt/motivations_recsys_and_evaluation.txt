@@ -1,0 +1,18 @@
+Função de itens similares retorna o próprio item?? Itens diferentes tem correlação maior q o item em si
+
+Precision at k is the proportion of recommended items in the top-k set that are relevant
+Precision@k = (# of recommended items @k that are relevant) / (# of recommended items @k)
+
+Recall at k is the proportion of relevant items found in the top-k recommendations
+Recall@k = (# of recommended items @k that are relevant) / (total # of relevant items)
+http://playground.tensorflow.org/
+
+Ver outras bases de dados
+
+A well-cited study (over 2000 citations so far!) by Iyengar and Lepper ran an experiment where they had two stands of jam on two different days.
+One stand had 24 varieties of jam while the second had only six. The stand with 24 varieties of jam only converted 3% of the customers to a sale, while the stand with only six varieties converted 30% of the customers.
+At Google, news recommendations improved click-through rate (CTR) by 38%
+For Amazon, 35% of sales come from recommendations
+at Hulu, incorporating a recommender system improved their CTR by three times over just recommending the most popular shows back in 2011
+
+HULU: As the quantity of implicit data at Hulu far outweighs the amount of explicit feedback, our system should be designed primarily to work with implicit feedback data.
