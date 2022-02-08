@@ -5,27 +5,28 @@ from sk import corte_pivo_log
 from collections import defaultdict
 
 def loading_files():
+	origin_path = os.getcwd()
+	et_path='/DH/Projeto/KASSANDR/GIT/Projeto-Digital-House'
 
-    origin_path = os.getcwd()
-    path_model = '\.pkl\svdpp.pkl'
-    model = pickle.load(open((origin_path + path_model), 'rb'))
+	path_model = '\.pkl\svdpp.pkl'
+	model = pickle.load(open((origin_path + et_path + path_model), 'rb'))
 
-    path_offer = '\.pkl\offers.pkl'
-    offer_title = pickle.load(open(origin_path + path_offer, 'rb'))
+	path_offer = '\.pkl\offers.pkl'
+	offer_title = pickle.load(open(origin_path + et_path + path_offer, 'rb'))
 
-    path_df = '/.csv/sparse_melt.csv'
-    df = pd.read_csv(origin_path + path_df)
+	path_df = '/.csv/sparse_melt.csv'
+	df = pd.read_csv(origin_path + et_path + path_df)
 
-    path_sparse = '/.csv/sparse.csv'
-    sparse = pd.read_csv(origin_path + path_sparse, index_col=0)
+	path_sparse = '/.csv/sparse.csv'
+	sparse = pd.read_csv(origin_path + et_path + path_sparse, index_col=0)
 
-    path_clicks_de = '/.csv/clicks_de.csv'
-    clicks_de = pd.read_csv(origin_path + path_clicks_de)
+	path_clicks_de = '/.csv/clicks_de.csv'
+	clicks_de = pd.read_csv(origin_path + et_path + path_clicks_de)
 
-    path_category = '/.csv/translations.csv'
-    category = pd.read_csv(origin_path + path_category, sep=';')
+	path_category = '/.csv/translations.csv'
+	category = pd.read_csv(origin_path + et_path + path_category, sep=';')
 
-    return model, offer_title, df, sparse, clicks_de, category
+	return model, offer_title, df, sparse, clicks_de, category
 
 #Function for prediction
 def recommendations_from_SVDpp(user_id, pivo_log, algo, n_recommendations):

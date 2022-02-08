@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 import streamlit as st
-import surprise
+#import surprise
 import os
 from graphs import user_graph
 import matplotlib.pyplot as plt
@@ -13,7 +13,7 @@ model, offer_title, df, sparse, clicks_de, category = app_functions.loading_file
 
 def main():
 
-	paginas = ['Home','User-Analysis','KASANDR-DE']
+	paginas = ['Home','EDA-Country','User-Analysis','KASANDR-DE']
 	pagina = st.sidebar.radio('Selecione uma pagina', paginas)
 
 	if pagina == 'Home':
@@ -23,6 +23,18 @@ def main():
 		st.markdown('WebApp para analise de um sistema de recomendação sobre cliques de compras do site KELKO')
 
 # pra deixar mais simples, coloquei a função de grafico em um arquivo.py separado, assim que for construindo as outras vou colocando la, pra não deixar esse arquivo mto grande tbm
+
+	elif pagina == 'EDA-Country':
+		de = st.checkbox('Alemanha')
+		fr = st.checkbox('França')
+		it = st.checkbox('Italia')
+
+		if de:
+			st.write('Você escolheu em ver as distribuições da alemanha')
+		elif fr:
+			st.write('Você escolheu em ver as distribuições da frança')
+		elif it:
+			st.write('Você escolheu em ver as distribuições da Italia')
 	elif pagina == 'User-Analysis':
 		st.title('Breve EDA do usuário:')
 		#Input Data
@@ -58,12 +70,13 @@ def main():
 		#Recommendation Button
 		if st.button('Recommend'):
 
-			recommendations_ML, list_of_clicked_items_ML = app_functions.recommendations_from_SVDpp(user_id, df, model, n_recs)
-			mb_1, mb_2 = app_functions.lista_recomendacoes(user_id, sparse, clicks_de, offer_title, n_recs)
+			#recommendations_ML, list_of_clicked_items_ML = app_functions.recommendations_from_SVDpp(user_id, df, model, n_recs)
+			#mb_1, mb_2 = app_functions.lista_recomendacoes(user_id, sparse, clicks_de, offer_title, n_recs)
 
 			col1, col2, col3 = st.columns(3)
 			col1.header('Clicked:')
-			col1.write(app_functions.clicked_items(user_id, list_of_clicked_items_ML, offer_title))
+			col1.write('teste em outras paginas')
+			#col1.write(app_functions.clicked_items(user_id, list_of_clicked_items_ML, offer_title))
 
 
 			col2.header('ML model:')
