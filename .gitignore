@@ -22,4 +22,9 @@ df_offers.txt
 *.docx
 *.pptx
 *.rar
+*.pdf
+*.csv
 *.pkl
+*.txt
+
+

@@ -1,0 +1,13 @@
+sparse_user_item.npz
+sparse_item_user.npz
+
+de_als_model.pkl -> Modelo ALS com dados da Alemanha
+offers.pkl -> Dicionário que converte do código 'Offer' para o 'OfferTitle'
+offers.pkl -> Dicionário que converte do código 'Offer' para o 'OfferTitle'
+offer_sub1.pkl -> Dicionário que converte do código 'Offer para a categoria pertencente 'filha_1'
+sub1_name.pkl -> Dicionário que resgata o nome da Categoria 'filha_1'
+cat_name.pkl -> Dicionário que resgata o nome da Categoria 'Categoria'
+offer_cat.pkl -> Dicionário que converte do código 'Offer para a categoria pertencente 'Category'
+
+products_info.csv -> DataFrame com Categorias, Supercategorias(filha1) e quantidade de clicks de cada oferta com código 'Offer'
+
