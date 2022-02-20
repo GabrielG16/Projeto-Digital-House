@@ -1,7 +1,0 @@
-embeddings de palavras
-
-https://huggingface.co/sentence-transformers/bert-base-nli-mean-tokens
-
-
-avaliar categorias mais correlatas com as categorias clicadas.
-recomendar apenas itens dentro dessas categorias
