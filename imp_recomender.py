@@ -10,8 +10,10 @@ def loading_files():
     origin_path = os.getcwd()
     et_path = '/DH/Projeto/KASSANDR/Streamlit_finalversion/'
 
-    path_model = 'de_als_model.pkl'
-    model = pickle.load(open((origin_path + et_path + path_model), 'rb'))
+    path_model_de = 'de_als_model.pkl'
+    model_de = pickle.load(open((origin_path + et_path + path_model), 'rb'))
+
+
 
     path_item_user = 'sparse_item_user.npz'
     sparse_item_user = load_npz(open((origin_path + et_path + path_item_user), 'rb'))
@@ -36,6 +38,9 @@ def recommend(user, model, sparse_user_item):
     # with open(model_path, 'rb') as pickle_in:
     #     model = pickle.load(pickle_in)
 
+    # if user not in sparse_user_item.T.tocsr().indices:
+    #     return "invalid user"
+
     recommended, _ = model.recommend(user, sparse_user_item[user])
 
     original_user_items = list(sparse_user_item[user].indices)
@@ -49,7 +54,7 @@ def most_similar_items(item_id, model, n_similar=10):
     # with open(model_path, 'rb') as pickle_in:
     #     model = pickle.load(pickle_in)
 
-    similar, score = model.similar_items(item_id, n_similar)
+    similar, score = model.similar_items(item_id, n_similar, filter_items = [item_id])
 
     return similar
 
@@ -57,7 +62,7 @@ def most_similar_items(item_id, model, n_similar=10):
 def most_similar_users(user_id, sparse_user_item, model, n_similar=10):
     '''computes the most similar users'''
 
-    similar, _ = model.similar_users(user_id, n_similar)
+    similar, scores = model.similar_users(user_id, n_similar, filter_users = [user_id])
 
     # original users items
     original_user_items = list(sparse_user_item[user_id].indices)
@@ -104,3 +109,63 @@ def print_offers_name_on_streamlit(list_of_items, offer_title):
 		msg = msg + offer_title[item] + '\n\n'
 
 	return msg
+
+
+def suggestions(user_id, sparse_user_item, K=500, n_best_seller=2):
+    '''
+    Retorna recomendações segmentadas de acordo com as categorias clicadas pelo usuário passado.
+    À lista de recomendações são adicionados dois top 10 best-sellers da categoria em questão
+
+      Inputs:
+
+       user_id -> ID categórico do usuário
+
+       K -> Quantidade de sugestões que serão retornadas somente pelo modelo
+
+       n_best_seller -> Quantidade de sugestões que serão retornadas por popularidade em cada categoria considerada
+
+       Output:
+
+       cat_suggestions -> Dicionário com as sugestões agrupadas por categoria já clicada pelo usuário
+
+       original -> Array com os clicks originais do usuário selecionado
+    '''
+
+    if len(sparse_user_item[user_id].indices) == False:
+        return "Invalid User"
+
+    cat_suggestions = {}  ### Dicionario de sugestões agrupadas por categoria. Retornoda função
+    recs, original = recommend(user_id, K)  # Resposta original do modelo de recomendações e clicks originais
+    pd_recs = (pd.DataFrame((recs, [offer_cat.get(key) for key in recs])).T).rename({0: 'Offer', 1: 'Category'},
+                                                                                    axis=1)  # Dataframe p rastrear a categoria da oferta
+
+    best_cat = pd.Series(
+        offer_cat[cat] for cat in original).value_counts().index  # Filtra as categorias mais clicadadas pelo usuário
+
+    for i in range(len(best_cat)):  # percorrer as categorias de acordo com os clicks do usuários
+
+        if len(pd_recs[pd_recs.Category == best_cat[
+            i]]) != 0:  ## Se não houver nenhuma recomendação da categoria em questão, não adicionar à lista
+
+            pop_recs = products_info[products_info.Category == best_cat[i]][:20]  # seleciona os 10 itens mais populares
+            pop_recs = pop_recs[
+                pop_recs.Offer.isin(original) == False]  # Filtra para manter apenas os que ainda não foram clicados
+
+            pop_recs = random.sample(pop_recs.Offer.values.tolist(), pop_recs.shape[0])[
+                       :n_best_seller]  # Seleciona 2 ofertas mais populares da categoria
+
+            pop_recs.extend(pd_recs[pd_recs.Category == best_cat[i]].Offer.values[
+                            :3].tolist())  # Soma aos best sellers as sugestões do modelo de acordo com a categoria
+            cat_suggestions[best_cat[i]] = pop_recs
+
+    others = []  # Verificar sugestões de categorias que nunca foram clicadas pelo usuário
+    for row in pd_recs.index[:15]:
+        if pd_recs.Category.values[row] not in best_cat.values:
+            # print(cat_name[pd_recs.Category.values[row]]) #Ver quais são as categorias que não se encaixaram
+            others.append(pd_recs.Offer.values[row])
+    random.shuffle(others)
+    others = others[:5]
+
+    cat_suggestions['Others'] = others
+
+    return cat_suggestions, original
