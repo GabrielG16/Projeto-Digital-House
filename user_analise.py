@@ -51,7 +51,7 @@ def user_analise_page():
     # user_disponiveis = list(sparse_item_user.indices)
     user_disponiveis = union_corte.User.unique()
     user_id = st.selectbox('Selecione um usuário:', user_disponiveis)
-
+    st.markdown("[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)")
     # Code for prediction
     results = ''
 
