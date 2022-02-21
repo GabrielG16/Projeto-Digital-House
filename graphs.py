@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
+import numpy as np
 import seaborn as sns
 import streamlit as st
 
@@ -30,10 +31,12 @@ def loading_union():
 def lista_categorias_do_usuario(df, user):
     fig = plt.figure(figsize=(12, 8))
     df = df[df.User == user]
-    sns.countplot(y='Translate', data = df)
-    plt.title('Categorias clicadas pelo Usuário')
-    plt.xlabel('Cliques')
-    plt.ylabel('Categorias')
+    sns.set_style("darkgrid", {"axes.facecolor": ".9"})
+    sns.countplot(y='Translate', data = df, order = df['Translate'].value_counts().index)
+    plt.title('Most Clicked Categories by User \n', fontsize = 26)
+    plt.xlabel('Clicks', fontdict={'fontsize':17})
+    plt.ylabel('Categories', fontdict={'fontsize':17})
+    plt.tick_params(axis='both', which='major', labelsize=15)
     st.pyplot(fig)
 
 def lista_produtos_do_usuario(df, user):
@@ -55,9 +58,15 @@ def lista_produtos_por_categoria_usuario(choose, df, user):
 def lista_top10_categorias(df):
     fig = plt.figure(figsize=(12,8))
     order_filt = df.filha_1_name.value_counts().iloc[:10].index
+    sns.set_style("dark", {"axes.facecolor": ".9"})
     sns.countplot(y='filha_1_name', hue = 'CountryCode',data = df, order = order_filt)
-    plt.ylabel('Super Categorias')
-    plt.xlabel('Contagem')
+    plt.ylabel('Super Categories', fontdict={'fontsize':17})
+    plt.tick_params(axis='both', which='major', labelsize=15)
+    plt.xlabel('Count',  fontdict={'fontsize':17})
+    plt.legend(prop={"size":12}, title = 'Country', title_fontsize =12)
+    plt.title('Most Popular Categories per Country\n', fontsize = 26)
+
+    plt.title
     #plt.show()
     st.pyplot(fig)
 
@@ -83,10 +92,18 @@ def filtro_por_produtos_por_super_categorias_eda_country(choose, df):
     fig = plt.figure(figsize=(15, 15))
     filtro = df.loc[df.filha_1_name == choose]
     order_filt = filtro.OfferTitle.value_counts().iloc[:10].index
+    ylabels = pd.Series(order_filt).apply(lambda x: x[:20]+'...')
     #order_filt = filtro.OfferTitle.value_counts().index
+    sns.set_style("darkgrid", {"axes.facecolor": ".9"})
     sns.countplot(y='OfferTitle', hue='CountryCode', data=filtro, order=order_filt)
-    plt.ylabel('Sub Categorias')
-    plt.xlabel('Contagem')
+    plt.yticks(ticks = np.arange(0,10), labels = ylabels)
+    plt.title('Most Popular Category Products per Country\n', fontsize = 26)
+    plt.xlabel('Count', fontdict={'fontsize':17})
+    plt.ylabel('Subcategories', fontdict={'fontsize':17})
+    plt.tick_params(axis='both', which='major', labelsize=15)
+    plt.legend(prop={"size":18}, title = 'Country', title_fontsize =18)
+
+
     st.pyplot(fig)
 
 def lista_produtos_sub_categorias():

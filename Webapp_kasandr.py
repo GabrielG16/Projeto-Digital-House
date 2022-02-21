@@ -30,7 +30,7 @@ def main():
 			   'Recomendação para usuário escolhido',
 			   'Itens Clicados Juntos', 'Novo Usuário']
 
-	pagina = st.sidebar.radio('Selecione uma página', paginas)
+	pagina = st.sidebar.radio('Selecione uma página: ', paginas)
 
 	if pagina == 'Início':
 		home.home_page()

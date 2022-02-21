@@ -11,9 +11,9 @@ cat_name_de, cat_name_it, cat_name_fr = MRF.loading_cat_name()
 
 def kassandr_user_page():
 
-    st.title('Product Recommender System Web App - KASANDR (DE)')
+    st.title('Product Recommender System Web App - KASANDR ')
 
-    country = st.selectbox('Selecione um país:', ['França','Alemanha','Italia'])
+    country = st.selectbox('Selecione um país:', ['França','Alemanha','Itália'])
 
 
 #ajeitando os ponteiros para o modelo escolhido!

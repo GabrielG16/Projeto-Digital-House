@@ -152,7 +152,7 @@ def most_similar_items(item_id, model, n_similar=10):
 
 def suggestions(user_id, model, sparse, offer_cat, products_info):
     cat_suggestions = {}
-    recs, original = recommend(user_id, model, sparse)
+    recs, original = recommend(user_id, model, sparse, k=300)
 
     pd_recs = pd.DataFrame((recs, [offer_cat.get(key) for key in recs])).T.rename({0: 'Offer', 1: 'Category'}, axis=1)
 
@@ -182,30 +182,30 @@ def suggestions(user_id, model, sparse, offer_cat, products_info):
 
 def print_offers_name_on_streamlit(list_of_items, offer_title):
 
-	msg = ""
+	lista = []
 	for item in list_of_items:
-		msg = msg + offer_title[item] + '\n\n'
+		 lista.append(offer_title[item])
 
-	return msg
+	return lista
 
 
 def print_streamlit(cat_suggestions, original, cat_name, offer):
-    for c in cat_suggestions:
-        if len(cat_suggestions[c]) > 0:
-            st.write('\nPorque você clicou na seção', cat_name[c], "em: \n")
-            st.write(print_offers_name_on_streamlit(original[:5],offer))
+    for c in cat_suggestions.keys():
+        if len(cat_suggestions[c]) > 0 and c!='Others':
+            st.write('\n**Porque você clicou na seção**', '**_'+cat_name[c]+'_**', "**em:** \n")
+            st.write(pd.Series(print_offers_name_on_streamlit(original[:5],offer), name='Items'))
             # for item in original[:5]:
             #     st.write(offer[item])
-            st.write("\n", 'Achamos que você talvez também goste:', "\n")
+            st.write("\n", '**Achamos que você talvez também goste:**', "\n")
             st.write('')
             st.write(print_offers_name_on_streamlit(cat_suggestions[c], offer))
             # for item in cat_suggestions[c]:
             #     st.write(offer[item])
-
     if len(cat_suggestions['Others']) > 0:
-        st.write("\n", 'Achamos que você talvez também goste:', "\n")
+        st.write("\n", 'Achamos que você talvez também pode gostar:', "\n")
         st.write('')
-        st.write(print_offers_name_on_streamlit(cat_suggestions['Others'], offer))
+        st.write(print_offers_name_on_streamlit(cat_suggestions['Others'][:5], offer))
         # for item in cat_suggestions['Others']:
         #     st.write(offer[item])
+
 

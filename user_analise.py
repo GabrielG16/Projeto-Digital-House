@@ -26,10 +26,11 @@ def user_analise_page():
 
     union = loading_dataset()
 
-    st.title('Breve Análise Exploratória do usuário:')
+    st.title('Análise Exploratória do usuário:')
+    st.caption('Perfil do usuário gerado a partir das suas interações recentes e descrição dos produtos acessados.')
     # Input Data
 
-    select_country = st.selectbox('Selecione um país: ', ['França', 'Alemanha', 'Italia'])
+    select_country = st.selectbox('Selecione um país: ', ['França', 'Alemanha', 'Itália'])
 
 
     if select_country == 'França':
@@ -58,7 +59,7 @@ def user_analise_page():
 
         graphs.lista_categorias_do_usuario(union_corte, user_id)
 
-        st.write('Lista dos itens clicados nas categorias do usuario')
+        st.subheader('Lista dos itens clicados pelo usuário em cada categoria: ')
         produtos_nas_categorias = union_corte.loc[(union_corte.User == user_id),['Translate','OfferTitle']]
-        produtos_nas_categorias.columns = ['Categoria', 'Produtos']
-        st.table(produtos_nas_categorias.reset_index(drop = True).sort_values(by=['Categoria']))
+        produtos_nas_categorias.columns = ['Category', 'Products']
+        st.table(produtos_nas_categorias.sort_values(by=['Category']).reset_index(drop = True))
