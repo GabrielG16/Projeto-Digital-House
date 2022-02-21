@@ -14,9 +14,11 @@ import home
 import cold_start
 import eda_country
 import graphs
+import item_exploration
 import kassandr_de_user_page
 import user_analise
 import kassandr_de_user_page
+import item_exploration
 
 
 
@@ -25,8 +27,8 @@ import kassandr_de_user_page
 def main():
 
 	paginas = ['Início','Análise Exploratória por País', 'Análise por Usuário',
-			   'Recomendação para usuário escolhido', 'KASSANDR-USER-USER',
-			   'KASSANDR-DE-ITEM', 'Novo Usuário']
+			   'Recomendação para usuário escolhido',
+			   'Itens Clicados Juntos', 'Novo Usuário']
 
 	pagina = st.sidebar.radio('Selecione uma página', paginas)
 
@@ -48,33 +50,13 @@ def main():
 	elif pagina == 'Recomendação para usuário escolhido':
 		kassandr_de_user_page.kassandr_user_page()
 
-	elif pagina == 'KASSANDR-USER-USER':
-		st.title('User by User')
-		# user_disponiveis = list(sparse_item_user.indices)
-		# user_id = st.selectbox('Selecione um usuario:', user_disponiveis)
-		#
-		# if st.button('Similar Users'):
-		#
-		# 	similar, common = imp_recomender.most_similar_users(user_id, sparse_user_item,model)
-		# 	st.write(similar)
-		# 	st.write(common)
-		# 	#st.write(imp_recomender.print_offers_name_on_streamlit(common, offer_title))
+	# elif pagina == 'KASSANDR-USER-USER':
+	# 	st.title('User by User')
 
 
 
-	elif pagina == 'KASSANDR-DE-ITEM':
-		st.title('Itens')
-
-
-		# #itens_disponiveis = indice_itens['Offer_Title']
-		# itens_disponiveis = list(sparse_user_item.indices)
-		# item_id = st.selectbox('Selecione um item:', itens_disponiveis)
-		#
-		# if st.button('Recommend'):
-		# 	st.write('Select Item:', offer_title[item_id])
-		# 	st.write('')
-		# 	most_similar_items = imp_recomender.most_similar_items(item_id, model)
-		# 	st.write(imp_recomender.print_offers_name_on_streamlit(most_similar_items, offer_title))
+	elif pagina == 'Itens Clicados Juntos':
+		item_exploration.item_exploration_page()
 
 	elif pagina == 'Novo Usuário':
 		cold_start.cold_start_page()
