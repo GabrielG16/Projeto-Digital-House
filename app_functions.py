@@ -5,8 +5,9 @@ from sk import corte_pivo_log
 from collections import defaultdict
 
 def loading_files():
-	origin_path = os.getcwd()
-	et_path='/DH/Projeto/KASSANDR/GIT/Projeto-Digital-House'
+	# origin_path = os.getcwd()
+	origin_path = ''
+	et_path=''
 
 	path_model = '\.pkl\svdpp.pkl'
 	model = pickle.load(open((origin_path + et_path + path_model), 'rb'))

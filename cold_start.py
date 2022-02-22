@@ -3,16 +3,17 @@ import streamlit as st
 import os
 import pickle
 
-origin_path = os.getcwd()
+#origin_path = os.getcwd()
+origin_path = ''
 et_path = ''
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def loading_dataset():
-    path_de = origin_path + et_path + '/.csv/.novo/all_countries.csv'
+    path_de = origin_path + et_path + '.csv/.novo/all_countries.csv'
     all_countries = pd.read_csv(path_de)
 
-    top3_path = origin_path + et_path + '/.csv/top3_per_category_de.csv'
-    top3_de = pd.read_csv(top3_path)
+    # top3_path = origin_path + et_path + '/.csv/top3_per_category_de.csv'
+    # top3_de = pd.read_csv(top3_path)
 
     # path_it = origin_path + et_path + '/.csv/clicks_de.csv'
     # italia = pd.read_csv(path_it)
@@ -22,16 +23,22 @@ def loading_dataset():
 
     #aqui possivelmente vai ter as sparsas dos 3 paises
 
-    return all_countries, top3_de
+    return all_countries
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def loading_dicionarios():
 
-    path_de = origin_path + et_path + '/.pkl/alemanha/dicionario_super_sub_categorias_cold_start_alemanha.pkl'
+    path_de = origin_path + et_path + '.pkl/alemanha/dicionario_super_sub_categorias_cold_start_alemanha.pkl'
     alemanha = pickle.load(open(path_de, 'rb'))
 
+    path_fr = origin_path + et_path + '.pkl/france/dicionario_super_sub_categorias_cold_start_france.pkl'
+    france = pickle.load(open(path_fr, 'rb'))
 
-    return alemanha#, frança, italia
+    path_it = origin_path + et_path + '.pkl/italia/dicionario_super_sub_categorias_cold_start_italia.pkl'
+    italia = pickle.load(open(path_it, 'rb'))
+
+
+    return alemanha, france, italia
 # @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 # def recebe_categorias(lista_categorias, df):
 #     import warnings
@@ -83,8 +90,8 @@ def recebe_categorias_retorna_produtos(categorias_selecionadas, dicionario_categ
         st.write('\n')
 
 def cold_start_page():
-    union, top3 = loading_dataset()
-    dicionario_alemanha = loading_dicionarios()
+    union = loading_dataset()
+    dicionario_alemanha, dicionario_france, dicionario_italia = loading_dicionarios()
 
     pais_selecionado = st.selectbox('Selecione um pais:', ['França','Alemanha','Itália'])
 
@@ -93,13 +100,13 @@ def cold_start_page():
     if pais_selecionado == 'França':
         #st.write('frança')
         df = union[union.CountryCode == 'fr']
-        dicionario_categorais = dicionario_alemanha
+        dicionario_categorais = dicionario_france
     elif pais_selecionado == 'Alemanha':
         df = union[union.CountryCode == 'de']
         dicionario_categorais = dicionario_alemanha
     elif pais_selecionado == 'Itália':
         df = union[union.CountryCode == 'it']
-        dicionario_categorais = dicionario_alemanha
+        dicionario_categorais = dicionario_italia
 
 
     st.title('Insira as categorias que o usuario mais tem interesse')

@@ -43,7 +43,7 @@ def kassandr_user_page():
         products_info = products_info_it
         cat_name = cat_name_it
 
-
+    cat_img = MRF.loading_cat_image()
 
     #Input Data
 
@@ -66,7 +66,7 @@ def kassandr_user_page():
         #col1, col2 = st.columns(2)
         #col1.header('Recommended:')
         #col1.write(MRF.print_offers_name_on_streamlit(recommended_items, offer))
-        MRF.print_streamlit(recommended_items, clicked_items, cat_name, offer)
+        MRF.print_streamlit(recommended_items, clicked_items, cat_name, offer, offer_cat, products_info, cat_img)
 
 
 def kassandr_userbyuser_page():

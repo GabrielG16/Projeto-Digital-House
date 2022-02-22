@@ -5,13 +5,14 @@ import graphs
 import streamlit as st
 import os
 
-origin_path = os.getcwd()
+#origin_path = os.getcwd()
+origin_path = ''
 et_path = ''
 
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def loading_dataset():
-    path_union = origin_path + et_path + '/.csv/.novo/all_countries.csv'
+    path_union = origin_path + et_path + '.csv/.novo/all_countries.csv'
     df_all = pd.read_csv(path_union)
     return df_all
 
@@ -26,7 +27,9 @@ def user_analise_page():
 
     union = loading_dataset()
 
-    st.title('Breve Análise Exploratória do usuário:')
+    st.title('Análise Exploratória do usuário:')
+    st.caption('Perfil do usuário gerado a partir das suas interações recentes e descrição dos produtos acessados.')
+
     # Input Data
 
     select_country = st.selectbox('Selecione um país: ', ['França', 'Alemanha', 'Italia'])
@@ -61,4 +64,5 @@ def user_analise_page():
         st.write('Lista dos itens clicados nas categorias do usuario')
         produtos_nas_categorias = union_corte.loc[(union_corte.User == user_id),['Translate','OfferTitle']]
         produtos_nas_categorias.columns = ['Categoria', 'Produtos']
-        st.table(produtos_nas_categorias.reset_index(drop = True).sort_values(by=['Categoria']))
+        tabela_a_ser_mostrada = produtos_nas_categorias.sort_values(by = ['Categoria']).reset_index(drop = True).sort_values(by=['Categoria'])
+        st.table(tabela_a_ser_mostrada)

@@ -2,8 +2,9 @@ import streamlit as st
 import pandas as pd
 import os
 
-origin_path = os.getcwd()
-et_path = '/DH/Projeto/KASSANDR/Streamlit_finalversion/' # no caso pode deixar em branco ''
+#origin_path = os.getcwd()
+origin_path = ''
+et_path = '' # no caso pode deixar em branco ''
 
 
 def home_page():

@@ -2,18 +2,19 @@ import pandas as pd
 import streamlit as st
 import os
 
-origin_path = os.getcwd()
+#origin_path = os.getcwd()
+origin_path = ''
 et_path = ''
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def loading_data():
-    path_de = origin_path + et_path + '/.csv/.novo/antecedents_to_consequents_alemanha.csv'
+    path_de = origin_path + et_path + '.csv/.novo/antecedents_to_consequents_alemanha.csv'
     alemanha = pd.read_csv(path_de)
 
-    path_fr = origin_path + et_path + '/.csv/.novo/antecedents_to_consequents_alemanha.csv'
+    path_fr = origin_path + et_path + '.csv/.novo/antecedents_to_consequents_france.csv'
     france = pd.read_csv(path_de)
 
-    path_it = origin_path + et_path + '/.csv/.novo/antecedents_to_consequents_alemanha.csv'
+    path_it = origin_path + et_path + '.csv/.novo/antecedents_to_consequents_italia.csv'
     italia = pd.read_csv(path_de)
 
     return alemanha, france, italia

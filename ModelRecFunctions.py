@@ -5,20 +5,21 @@ import random
 import pandas as pd
 import streamlit as st
 
-origin_path = os.getcwd()
+#origin_path = os.getcwd()
+origin_path = ''
 et_path = ''
 #et_path = '/DH/Projeto/KASSANDR/Streamlit_finalversion/' # no caso pode deixar em branco ''
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def loading_model():
 
-    path_model_de = '/.pkl/alemanha/alemanha_als_model.pkl'
+    path_model_de = '.pkl/alemanha/alemanha_als_model.pkl'
     de_model = pickle.load(open((origin_path + et_path + path_model_de), 'rb'))
 
-    path_model_it = '/.pkl/italia/italia_als_model.pkl'
+    path_model_it = '.pkl/italia/italia_als_model.pkl'
     it_model = pickle.load(open((origin_path + et_path + path_model_it), 'rb'))
 
-    path_model_fr = '/.pkl/france/france_als_model.pkl'
+    path_model_fr = '.pkl/france/france_als_model.pkl'
     fr_model = pickle.load(open((origin_path + et_path + path_model_fr), 'rb'))
 
 
@@ -27,13 +28,13 @@ def loading_model():
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def loading_sparse():
-    path_sparse_de = origin_path + et_path + '/.npz/alemanha/sparse_user_item_alemanha.npz'
+    path_sparse_de = origin_path + et_path + '.npz/alemanha/sparse_user_item_alemanha.npz'
     sparse_de = load_npz(path_sparse_de)
 
-    path_sparse_it = origin_path + et_path + '/.npz/italia/sparse_user_item_italia.npz'
+    path_sparse_it = origin_path + et_path + '.npz/italia/sparse_user_item_italia.npz'
     sparse_it = load_npz(path_sparse_it)
 
-    path_sparse_fr = origin_path + et_path + '/.npz/france/sparse_user_item_france.npz'
+    path_sparse_fr = origin_path + et_path + '.npz/france/sparse_user_item_france.npz'
     sparse_fr = load_npz(path_sparse_fr)
 
 
@@ -41,39 +42,39 @@ def loading_sparse():
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def loading_offers():
-    path_offer_de = '/.pkl/alemanha/offers_alemanha.pkl'
+    path_offer_de = '.pkl/alemanha/offers_alemanha.pkl'
     offer_de = pickle.load(open((origin_path + et_path + path_offer_de),'rb'))
 
-    path_offer_it =  '/.pkl/italia/offers_italia.pkl'
+    path_offer_it =  '.pkl/italia/offers_italia.pkl'
     offer_it = pickle.load(open((origin_path + et_path + path_offer_it),'rb'))
 
-    path_offer_fr = '/.pkl/france/offers_france.pkl'
+    path_offer_fr = '.pkl/france/offers_france.pkl'
     offer_fr = pickle.load(open((origin_path + et_path + path_offer_fr),'rb'))
 
     return offer_de, offer_it, offer_fr
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def loading_offer_cat():
-    path_offer_de = '/.pkl/alemanha/offers_cat_alemanha.pkl'
+    path_offer_de = '.pkl/alemanha/offers_cat_alemanha.pkl'
     offer_cat_de = pickle.load(open((origin_path + et_path + path_offer_de), 'rb'))
 
-    path_offer_it = '/.pkl/italia/offers_cat_italia.pkl'
+    path_offer_it = '.pkl/italia/offers_cat_italia.pkl'
     offer_cat_it = pickle.load(open((origin_path + et_path + path_offer_it), 'rb'))
 
-    path_offer_fr = '/.pkl/france/offers_cat_france.pkl'
+    path_offer_fr = '.pkl/france/offers_cat_france.pkl'
     offer_cat_fr = pickle.load(open((origin_path + et_path + path_offer_fr), 'rb'))
 
     return offer_cat_de, offer_cat_it, offer_cat_fr
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def loading_products_info():
-    path_products_de = origin_path + et_path + '/.products/alemanha/products_info_alemanha.csv'
+    path_products_de = origin_path + et_path + '.products/alemanha/products_info_alemanha.csv'
     products_de = pd.read_csv(path_products_de)
 
-    path_products_it = origin_path + et_path + '/.products/italia/products_info_italia.csv'
+    path_products_it = origin_path + et_path + '.products/italia/products_info_italia.csv'
     products_it = pd.read_csv(path_products_it)
 
-    path_products_fr = origin_path + et_path + '/.products/france/products_info_france.csv'
+    path_products_fr = origin_path + et_path + '.products/france/products_info_france.csv'
     products_fr = pd.read_csv(path_products_fr)
 
 
@@ -82,17 +83,23 @@ def loading_products_info():
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def loading_cat_name():
-    path_cat_name_de = '/.pkl/alemanha/cat_name_alemanha.pkl'
+    path_cat_name_de = '.pkl/alemanha/cat_name_alemanha.pkl'
     cat_name_de = pickle.load(open((origin_path + et_path + path_cat_name_de), 'rb'))
 
-    path_cat_name_it = '/.pkl/italia/cat_name_italia.pkl'
+    path_cat_name_it = '.pkl/italia/cat_name_italia.pkl'
     cat_name_it = pickle.load(open((origin_path + et_path + path_cat_name_it), 'rb'))
 
-    path_cat_name_fr = '/.pkl/france/cat_name_france.pkl'
+    path_cat_name_fr = '.pkl/france/cat_name_france.pkl'
     cat_name_fr = pickle.load(open((origin_path + et_path + path_cat_name_fr), 'rb'))
 
 
     return cat_name_de, cat_name_it, cat_name_fr
+
+@st.cache(suppress_st_warning=True, allow_output_mutation=True)
+def loading_cat_image():
+    path_cat_img = '.pkl/cat_img.pkl'
+    cat_img = pickle.load(open((origin_path + et_path + path_cat_img), 'rb'))
+    return cat_img
 
 def recommend(user, model, sparse_user_item, k=10):
 
@@ -151,8 +158,9 @@ def most_similar_items(item_id, model, n_similar=10):
 
 
 def suggestions(user_id, model, sparse, offer_cat, products_info):
+
     cat_suggestions = {}
-    recs, original = recommend(user_id, model, sparse)
+    recs, original = recommend(user_id, model, sparse, k=300)
 
     pd_recs = pd.DataFrame((recs, [offer_cat.get(key) for key in recs])).T.rename({0: 'Offer', 1: 'Category'}, axis=1)
 
@@ -189,23 +197,46 @@ def print_offers_name_on_streamlit(list_of_items, offer_title):
 	return msg
 
 
-def print_streamlit(cat_suggestions, original, cat_name, offer):
+def retorna_item(item, offer_title):
+    return offer_title[item]
+
+def print_streamlit(cat_suggestions, original, cat_name, offer, offer_cat, products_info, cat_img):
+    pd_originals = (pd.DataFrame((original, [offer_cat.get(key) for key in original])).T).rename({0: 'Offer', 1: 'Category'},
+                                                                                         axis=1)
+
     for c in cat_suggestions:
-        if len(cat_suggestions[c]) > 0:
-            st.write('\nPorque você clicou na seção', cat_name[c], "em: \n")
-            st.write(print_offers_name_on_streamlit(original[:5],offer))
-            # for item in original[:5]:
-            #     st.write(offer[item])
+        if (len(cat_suggestions[c]) > 0) & (c != 'Others'):
+            st.write('\nPorque você clicou na seção', '**_'+cat_name[c]+'_**', "em: \n")
+            st.image(cat_img[c])
+            for item in pd_originals[pd_originals.Category == c][:5].Offer.values:
+                st.write('-', retorna_item(item, offer))
+            #st.write(print_offers_name_on_streamlit(original[:5], offer))
+
+            # for i in range(5):
+            #
+            #     #st.write('-', retorna_item(original[i], offer))
+            #     st.write(print_offers_name_on_streamlit(original[i],offer))
+
             st.write("\n", 'Achamos que você talvez também goste:', "\n")
             st.write('')
-            st.write(print_offers_name_on_streamlit(cat_suggestions[c], offer))
-            # for item in cat_suggestions[c]:
-            #     st.write(offer[item])
+            for i in range(len(cat_suggestions[c][:5])):
+                st.write('-', retorna_item(cat_suggestions[c][i], offer))
+            #st.write(print_offers_name_on_streamlit(cat_suggestions[c], offer))
 
     if len(cat_suggestions['Others']) > 0:
+        st.write('\nPorque você clicou na seção', '**_Others_**', "em: \n")
+        for item in pd_originals[pd_originals.Category == c][:5].Offer.values:
+            st.write('-', retorna_item(item, offer))
+        #st.write(print_offers_name_on_streamlit(original[:5], offer))
+        # for i in range(5):
+        #     st.write('-', retorna_item(original[i], offer))
+            #
+
         st.write("\n", 'Achamos que você talvez também goste:', "\n")
         st.write('')
-        st.write(print_offers_name_on_streamlit(cat_suggestions['Others'], offer))
+        for i in range(len(cat_suggestions['Others'])):
+            st.write('-', retorna_item(cat_suggestions['Others'][i],offer))
+            #st.write(print_offers_name_on_streamlit(cat_suggestions['Others'][i], offer))
         # for item in cat_suggestions['Others']:
         #     st.write(offer[item])
 
