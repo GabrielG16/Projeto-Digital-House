@@ -1,8 +1,9 @@
-Recommendation System Project based on the KASANDR database from Kelkoo
+Elaboração de sistema de recomendação para identificar produtos de interesse diante de um vasto catálogo de produtos em uma loja de departamento. O sistema pode contribuir com as vendas e satisfação do cliente, chegando aos itens do seu interesse com maior facilidade.
 
-Recommendation system built on Implicit Library for implicit feedback datasets.
-Also tested on LightFM library.
+Principais ferramentas utilizadas:
 
-Models evaluated by libs Implicit and Recometrics.
-
-Available Countries: Germany, Italy and France
+- Python, Numpy, Pandas, Seaborn
+- Jupyter Lab
+- Biblioteca Implicit para algoritmo de recomendações
+-Git e Github para versionamento
+- Streamlit para Deploy
